@@ -1,11 +1,11 @@
-body, p, div, h3{
+*{
     margin: 0px;
     padding: 0px;
 }
 
 main{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
@@ -27,28 +27,17 @@ main{
     justify-content: center;
 }
 
-.content-container{
-    position: absolute;
-    padding: 10px;
-}
-
-.instruments-img{
-    position: absolute;
-    width: 600px;
-    left: 0px;
-    top: 200px;
-}
-
-.exp-index-img{
-    position: absolute;
-    left: 180px;
-    top: 200px;
-}
+/* Container Text  */
 
 .instruction{
     position: absolute;
     top: 30px;
     width: 1000px;
+}
+
+.content-container{
+    position: absolute;
+    padding: 10px;
 }
 
 .content{
@@ -68,10 +57,12 @@ main{
     font-size: 20px;
 }
 
+/* Next Button  */
+
 .next{
     position: absolute;
-    left: 720px;
-    top: 500px;
+    left: 730px;
+    top: 520px;
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -79,4 +70,36 @@ main{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+/* IMAGES  */
+
+.transbox{
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 460px;
+    top: 215px;
+    width: 120px;
+    height: 85px;
+}
+
+.mainPageImg-step1{
+    position: absolute;
+    left: 180px;
+    top: 200px;
+}
+
+.instruments-img{
+    position: absolute;
+    width: 600px;
+    left: 0px;
+    top: 200px;
+}
+
+.mainPageImg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 180px;
+    top: 150px;
 }

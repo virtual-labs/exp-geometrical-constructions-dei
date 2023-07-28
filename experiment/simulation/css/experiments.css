@@ -1,0 +1,130 @@
+/* TEXT  */
+
+.step{
+    display: inline-block;
+}
+
+.step-number{
+    background-color: rgb(20, 117, 228);
+    color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+.intructions{
+    display: inline-block;
+    font-size: 20px;
+}
+
+#instructions1-step1{
+    visibility: visible;
+}
+
+#instruction2-step1{
+    visibility: hidden;
+}
+
+/* IMAGES  */
+
+.assembly{
+    visibility: visible;
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 120px;
+    left: 100px;
+}
+
+.exp-image-section{
+    visibility: visible;
+    position: absolute;
+    width: 600px;
+    top: 175px;
+    left: 100px;
+}
+
+.exp-pencil{
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    top: 225px;
+    left: 565px;
+    rotate: -60deg;
+}
+
+#gif1-step1{
+    visibility: hidden;
+}
+
+/* SELECTION  */
+
+.dropMenu{
+    position: absolute;
+    width: 75px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#dropMenu1-step1{
+    visibility: hidden;
+    top: 170px;
+    left: 430px;
+}
+
+/* #drop-menu2-step1{
+    top: 170px;
+    left: 430px;
+} */
+
+/* BUTTONS  */
+.back-exp,.next-exp{
+    position: absolute;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(20, 117, 228);
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.back-exp{
+    visibility: hidden;
+    left: 660px;
+    top: 520px;
+}
+
+.next-exp{
+    visibility: hidden;
+    left: 730px;
+    top: 520px;
+}
+
+/* TRANSBOXES  */
+
+.exp-transboxes{
+    position: absolute;
+    /* border: 1px solid red; */
+}
+
+#trans1-step1{
+    visibility: visible;
+    top: 120px;
+    left: 430px;
+    width: 65px;
+    height: 50px;
+}
+
+/* ARROWS  */
+
+.exp-arrows{
+    position: absolute;
+    width: 50px;
+}
+
+#arr1-step1{
+    visibility: visible;
+    top: 170px;
+    left: 440px;
+}
