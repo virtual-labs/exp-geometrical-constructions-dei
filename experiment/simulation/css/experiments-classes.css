@@ -1,3 +1,5 @@
+/* EXPERIMENTS-CLASS FILE IS COMMON TO ALL THE EXPERIMENTS CLASSES STYLE  */
+
 /* TEXT  */
 
 .step{
@@ -14,14 +16,6 @@
 .intructions{
     display: inline-block;
     font-size: 20px;
-}
-
-#instructions1-step1{
-    visibility: visible;
-}
-
-#instruction2-step1{
-    visibility: hidden;
 }
 
 /* IMAGES  */
@@ -52,11 +46,7 @@
     rotate: -60deg;
 }
 
-#gif1-step1{
-    visibility: hidden;
-}
-
-/* SELECTION  */
+/* DropMenus  */
 
 .dropMenu{
     position: absolute;
@@ -66,18 +56,10 @@
     font-size: 14px;
 }
 
-#dropMenu1-step1{
-    visibility: hidden;
-    top: 170px;
-    left: 430px;
-}
 
-/* #drop-menu2-step1{
-    top: 170px;
-    left: 430px;
-} */
 
 /* BUTTONS  */
+
 .back-exp,.next-exp{
     position: absolute;
     padding: 10px 15px;
@@ -105,15 +87,6 @@
 
 .exp-transboxes{
     position: absolute;
-    /* border: 1px solid red; */
-}
-
-#trans1-step1{
-    visibility: visible;
-    top: 120px;
-    left: 430px;
-    width: 65px;
-    height: 50px;
 }
 
 /* ARROWS  */
@@ -123,8 +96,3 @@
     width: 50px;
 }
 
-#arr1-step1{
-    visibility: visible;
-    top: 170px;
-    left: 440px;
-}

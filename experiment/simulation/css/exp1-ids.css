@@ -1,0 +1,60 @@
+/* ID FILE IS SPECIFIC TO THAT EXPERMENT ONLY !!  */
+
+/* TEXT  */
+
+#instructions1-step1{
+    visibility: visible;
+}
+
+#instruction2-step1{
+    visibility: hidden;
+}
+
+
+/* IMAGES  */
+
+#gif1-step1{
+    visibility: hidden;
+}
+
+/* DropMenus  */
+
+#dropMenu1-step1{
+    visibility: hidden;
+    top: 170px;
+    left: 430px;
+}
+
+/* #drop-menu2-step1{
+    top: 170px;
+    left: 430px;
+} */
+
+/* BUTTONS  */
+
+
+
+/* TRANSBOXES  */
+
+#trans1-step1{
+    visibility: visible;
+    top: 120px;
+    left: 430px;
+    width: 65px;
+    height: 50px;
+}
+
+
+/* ARROWS  */
+
+#arr1-step1{
+    visibility: visible;
+    top: 170px;
+    left: 440px;
+}
+
+#arr2-step1{
+    visibility: hidden;
+    top: 220px;
+    left: 640px;
+}

@@ -1,12 +1,79 @@
-#nextBtnOfStarter,#gif1-starter{
+#nextBtnOfStarter{
     visibility: hidden;
 }
+
+/* SETUP 1  */
+
+#png1-board{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    width: 350px;
+    height: 260px;
+}
+
+#png1-sheet{
+    position: absolute;
+    width: 330px;
+    height: 240px;
+    top: 50px;
+    left: 430px;
+    animation: 1.5s 1 ease forwards moveSheet;
+    animation-play-state: paused;
+}
+
+.arr-setup1{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: 125px;
+    left: 350px;
+}
+
+@keyframes moveSheet{
+    from{
+        top: 50px;
+        left: 430px;
+    }
+    to{
+        top: 280px;
+        left: 30px;
+    }
+}
+
+/* SETUP 2  */
+
+#png2-board{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    width: 380px;
+    height: 280px;
+}
+
+#png2-sheet{
+    position: absolute;
+    width: 360px;
+    height: 260px;
+    top: 280px;
+    left: 50px;
+}
+
+.arr-setup2{
+    position: absolute;
+    visibility: hidden;
+    width: 80px;
+    height: 40px;
+    top: 160px;
+    left: 480px;
+}
+
 
 .clips-3d-starter{
     position: absolute;
     visibility: hidden;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     left: 550px;
     top: 150px;
 }
@@ -27,8 +94,8 @@
 .drafter1-starter{
     position: absolute;
     visibility: hidden;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     top: 300px;
     left: 550px;
 }
@@ -36,8 +103,8 @@
 .clips-normal-starter{
     position: absolute;
     visibility: hidden;
-    width: 10px;
-    height: 20px;
+    width: 15px;
+    height: 30px;
 }
 
 #clip1-starter{
@@ -63,8 +130,8 @@
 .drafter2-starter{
     position: absolute;
     visibility: hidden;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     animation: 2s 1 ease forwards movingDrafter;
     animation-play-state: paused;
 }
@@ -76,7 +143,7 @@
     }
     to{
         top : 265px;
-        left: 45px;
+        left: 55px;
     }
 }
 
@@ -87,7 +154,7 @@
     }
     to{
         top : 265px;
-        left: 375px;
+        left: 390px;
     }
 }
 
@@ -97,8 +164,8 @@
         top: 220px;
     }
     to{
-        top : 510px;
-        left: 45px;
+        top : 520px;
+        left: 55px;
     }
 }
 
@@ -108,8 +175,8 @@
         left: 620px;
     }
     to{
-        top : 510px;
-        left: 375px;
+        top : 520px;
+        left: 390px;
     }
 }
 
@@ -120,6 +187,6 @@
     }
     to{
         top : 265px;
-        left: 2px;
+        left: 5px;
     }
 }

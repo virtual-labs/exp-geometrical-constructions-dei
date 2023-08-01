@@ -1,23 +1,36 @@
+// SETUP 1 
+
 document.querySelector("#next-to-setup1").addEventListener("click", () => {
     document.querySelector("#mainPage").style.visibility = "hidden";
     document.querySelector("#mainPageImg").style.visibility = "hidden";
     document.querySelector("#next-to-setup1").style.visibility = "hidden";
 
-    document.querySelector("#setupPage").style.visibility = "visible";
+    document.querySelector("#setupPage1").style.visibility = "visible";
 })
 
+document.querySelector("#png1-sheet").addEventListener("click", (evt) => {
+    document.querySelector(".arr-setup1").style.visibility = "hidden";
+    // console.log(evt);
+    evt.target.style.animationPlayState = "running";
+    setTimeout(()=> document.querySelector("#next-to-setup2").style.visibility = "visible", 1500);
+})
 
-document.querySelector("#trans1-starter").addEventListener("click",() => {
-    document.querySelector("#png1-starter").style.visibility = "hidden";
-    document.querySelector("#trans1-starter").style.visibility = "hidden";
+// SETUP 2 
 
-    document.querySelector("#gif1-starter").style.visibility = "visible";
-    setTimeout(timeDelay1Starter, 2000);
-});
+document.querySelector("#next-to-setup2").addEventListener("click",(evt) => {
+    document.querySelector("#next-to-setup2").style.visibility = "hidden";
+    document.querySelector("#setupPage1").style.visibility = "hidden"
+    document.querySelector("#setupPage2").style.visibility = "visible";
+    // document.querySelector("#png3-sheet").style.visibility = "visible";
+    // document.querySelector("#png4-board").style.visibility = "visible";
+
+    setTimeout(timeDelay1Setup2, 500);
+})
 
 let clicks = 0;
 
-function timeDelay1Starter(){
+function timeDelay1Setup2(){
+    document.querySelector("#arr1-setup2").style.visibility = "visible";
     document.querySelector("#clip1-3d-starter").style.visibility = "visible";
     document.querySelector("#clip2-3d-starter").style.visibility = "visible";
     document.querySelector("#clip3-3d-starter").style.visibility = "visible";
@@ -62,6 +75,10 @@ document.querySelector("#drafter1-starter").addEventListener("click", () => {
 
 function showNextBtn(clicks){
     // console.log(clicks);
-    if(clicks === 5)
+    if(clicks === 1){
+        document.querySelector("#arr1-setup2").style.visibility = "hidden";
+    }
+    if(clicks === 5){
         setTimeout(() => document.querySelector("#nextBtnOfStarter").style.visibility = "visible", 1000);
+    }
 }
