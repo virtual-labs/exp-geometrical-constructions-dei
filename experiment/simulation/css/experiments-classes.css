@@ -23,27 +23,22 @@
 .assembly{
     visibility: visible;
     position: absolute;
-    width: 600px;
-    height: 50px;
-    top: 120px;
-    left: 100px;
+    width: 500px;
+    height: 40px;
+    top: 80px;
+    left: 150px;
 }
 
 .exp-image-section{
     visibility: visible;
     position: absolute;
-    width: 600px;
-    top: 175px;
-    left: 100px;
+    width: 700px;
+    top: 125px;
+    left: 50px;
 }
 
 .exp-pencil{
     position: absolute;
-    visibility: hidden;
-    width: 120px;
-    top: 225px;
-    left: 565px;
-    rotate: -60deg;
 }
 
 /* DropMenus  */
@@ -55,8 +50,6 @@
     border-radius: 4px;
     font-size: 14px;
 }
-
-
 
 /* BUTTONS  */
 
