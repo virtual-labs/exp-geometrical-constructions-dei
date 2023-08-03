@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/main-content.css" />
+    <link rel="stylesheet" href="../../css/experiments-classes.css" />
+    <link rel="stylesheet" href="../../css/exp1-ids.css">
+    <script src="../../js/exp1.js" defer></script>
+    <title>Experiment 1</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-img">
+        <img src="../../images/header.png" alt="virtual-lab-logo" class="vlab-logo" />
+        <h1>Virtual labs</h1>
+        <img src="../../images/dei.jpg" alt="dei-logo" class="dei-logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Experiments</a></li>
+          <li><a href="#">Contact us</a></li>
+          <!-- <li><a href="#"></a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="simulation-container">
+        <h2 class="title">GEOMETRICAL CONTRUCTION</h2>
+
+      <!-- STEP 1 -->
+
+      <div class="content-container" id="step1" style="visibility: visible;">
+        
+        <div class="statement">
+          <h3 class="step">
+            Step <span class="step-number">1</span>:
+          </h3>
+          <p class="intructions" id="instructions-step1">
+            Select the H pencil and draw horizontal line.
+          </p>
+        </div>
+
+        <!-- IMAGES  -->
+        <img src="../../images/assembly.png" alt="assembly-png" class="assembly" id="assembly">
+
+        <img src="../../images/exp-step1.png" alt="img-1" class="exp-image-section" id="png1-step1" >
+
+        <img src="../../images/exp1Images/png2-step1.jpg" alt="img-2" class="exp-image-section" id="png2-step1">
+
+        <img src="../../images/2h-pencil.png" alt="img-1" class="exp-pencil" id="pencil1-step1" >
+
+        <img src="../../images/3h-pencil.png" alt="img-1" class="exp-pencil" id="pencil2-step1" >
+
+        <!-- GIFS -->
+
+        <img src="../../images/exp1Images/gif1-step1.gif" alt="gif-1" class="exp-image-section" id="gif1-step1">
+
+        <img src="../../images/exp1Images/gif2-step1.gif" alt="gif-1" class="exp-image-section" id="gif2-step1">
+
+        <!-- SELECTION  -->
+
+        <select name="choice" id="dropMenu1-step1" class="dropMenu">
+          <option value="default">Select</option>
+          <option value="hPencil">H Pencil</option>
+          <option value="2hPencil">2H Pencil</option>
+          <option value="3hPencil">3H Pencil</option>
+        </select>
+
+        <select name="choice" id="dropMenu2-step1" class="dropMenu">
+          <option value="default">Select</option>
+          <option value="hPencil">H Pencil</option>
+          <option value="2hPencil">2H Pencil</option>
+          <option value="3hPencil">3H Pencil</option>
+        </select>
+
+        <!-- TRANSBOXS -->
+
+        <img src="../../images/transbox.png" alt="transbox" class="exp-transboxes" id="trans1-step1">
+
+        <img src="../../images/transbox.png" alt="transbox" class="exp-transboxes" id="trans2-step1">
+
+        <img src="../../images/transbox.png" alt="transbox" class="exp-transboxes" id="trans3-step1">
+
+        <!-- ARROW  -->
+
+        <img src="../../images/arrow-up.gif" alt="arr" class="exp-arrows" id="arr1-step1">
+
+        <img src="../../images/arrow-up.gif" alt="arr" class="exp-arrows" id="arr2-step1">
+
+        <img src="../../images/arrow-left.gif" alt="arr" class="exp-arrows" id="arr3-step1">
+
+        <img src="../../images/arrow-left.gif" alt="arr" class="exp-arrows" id="arr4-step1">
+
+        <!-- BUTTONS  -->
+
+        <button class="back-exp" id="backToStarter" onclick="backToStarter()">Back</button>
+
+        <button class="next-exp" id="nextToStep2" onclick="nextToStep2()">Next</button>
+      </div>
+
+    </div>
+</main>
+</body>
+</html>
