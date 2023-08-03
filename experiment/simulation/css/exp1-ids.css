@@ -13,9 +13,11 @@
 
 /* IMAGES  */
 
-#gif1-step1{
+#gif1-step1, #gif2-step1{
     visibility: hidden;
 }
+
+
 
 /* DropMenus  */
 

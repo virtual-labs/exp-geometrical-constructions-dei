@@ -23,3 +23,12 @@ dropMenu1Step1.addEventListener("change",(evt)=>{
     }
 });
 
+document.querySelector("#pencil1-step1").addEventListener("click", (evt) => {
+    document.querySelector("#gif1-step1").style.visibility = "visible";
+    document.querySelector("#arr2-step1").style.visibility = "hidden";
+    
+    setTimeout((evt) => {
+        // document.querySelector("#gif1-step1").style.visibility = "hidden";
+        document.querySelector("#gif2-step1").style.visibility = "visible";
+    }, 8000)
+})
