@@ -2,38 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A normal is the radius which is drawn parallel to the tangent",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a) True",
+        "b": "b) False"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b) False",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. An inscribed circle is a circle contained within a triangle.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a) True",
+        "b": "b) False"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "a) True",
       "difficulty": "beginner"
+    },{
+      "question": "3. Polygons with equal sides and equal angles are known as _____",
+      "answers": {
+        "a": "a) Uniform polygons",
+        "b": "b) True polygons",
+        "c": "c) Regular polygons",
+        "d": "d) Real polygons"
+      },
+      "correctAnswer": "c) Regular polygons",
+      "difficulty": "intermediate"
+    },{
+      "question": "4. Which of the following theorem is used to divide a line segment into a number of equal parts?",
+      "answers": {
+        "a": "a) Pythagoras’ theorem ",
+        "b": "b) Right-angle theorem",
+        "c": "c) Thales theorem",
+        "d": "d) Congruence theorem"
+      },
+      "correctAnswer": "c) Thales theorem",
+      "difficulty": "intermediate"
+    },{
+      "question": "5. Which of the following geometry consists of N number of circles with a common centre?",
+      "answers": {
+        "a": "a) Concentric circle",
+        "b": "b) Circumscribed circle",
+        "c": "c) Inscribed circle",
+        "d": "d) Sphere"
+      },
+      "correctAnswer": "a) Concentric circle",
+      "difficulty": "advance"
     }
   ]
 }

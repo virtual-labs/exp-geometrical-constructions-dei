@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In how many parts shall the semi circle be divided while constructing a regular hexagon?",
+      "question": "1. In how many parts shall the semi circle be divided while constructing a regular hexagon?",
       "answers": {
         "a": "a) Six",
         "b": "b) Five",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
+      "question": "2. While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
       "answers": {
         "a": "a) 5",
         "b": "b) 6"
@@ -22,7 +22,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The bisection of angle is important while inscribing a circle in a triangle.",
+      "question": "3. The bisection of angle is important while inscribing a circle in a triangle.",
       "answers": {
         "a": "a) True",
         "b": "b) False"
@@ -31,7 +31,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "The radii of the compass can be altered in between while dividing a line segment",
+      "question": "4. The radii of the compass can be altered in between while dividing a line segment",
       "answers": {
         "a": "a) True",
         "b": "b) False"
@@ -40,7 +40,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Polygons can also be constructed by using set squares.",
+      "question": "5. Polygons can also be constructed by using set squares.",
       "answers": {
         "a": "a) Yes",
         "b": "b) No"
