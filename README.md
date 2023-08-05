@@ -20,5 +20,5 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Varun Pal Singh | Faculty of Engineering | Civil Engineering | Dayalbagh Educational Institute | singhvarun928@gmail.com
-2 | Ana Rehman | Faculty of Engineering  | Civil Engineering | Dayalbagh Educational Institute | anarehmanana@gmail.com
+1 | <b> Varun Pal Singh | Faculty of Engineering | Civil Engineering | Dayalbagh Educational Institute | singhvarun928@gmail.com
+2 | <b> Ana Rehman | Faculty of Engineering  | Civil Engineering | Dayalbagh Educational Institute | anarehmanana@gmail.com
