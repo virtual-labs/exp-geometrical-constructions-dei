@@ -3,9 +3,10 @@
 <b>Discipline | <b> Mechanical Engineering.
 :--|:--|
 <b> Lab | <b> Engineering Graphics Lab.
-<b> Experiment|     <b> 3.Geometrical Contructions.
+<b> Experiment| <b> 3.Geometrical Contructions.
 
 ### About the Experiment 
+Geometrical construction is one of the main parts of engineering drawing which involves drawing shapes and figures with the help of a ruler and a compass. It consists of drawing and bisecting lines, creating angles, constructing different types of polygons and a lot more.
 
 Fill a brief description of this experiment here
 
@@ -13,7 +14,7 @@ Fill a brief description of this experiment here
 :--|:--|
 <b> Institute | <b>  Dayalbagh Educational Insitute
 <b> Email id|     <b>  ishantsinghal@dei.ac.in
-<b> Department |  Civil Engineering
+<b> Department | <b> Civil Engineering
 
 ### Contributors List
 
