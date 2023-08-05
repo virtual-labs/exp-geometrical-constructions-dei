@@ -2,38 +2,51 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In how many parts shall the semi circle be divided while constructing a regular hexagon?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a) Six",
+        "b": "b) Five",
+        "c": "c) Seven",
+        "d": "d) Four"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "a) Six",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a) 5",
+        "b": "b) 6"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
+      "correctAnswer": "a) 5",
       "difficulty": "beginner"
+    },
+    {
+      "question": "The bisection of angle is important while inscribing a circle in a triangle.",
+      "answers": {
+        "a": "a) True",
+        "b": "b) False"
+      },
+      "correctAnswer": "a) True",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The radii of the compass can be altered in between while dividing a line segment",
+      "answers": {
+        "a": "a) True",
+        "b": "b) False"
+      },
+      "correctAnswer": "b) False",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Polygons can also be constructed by using set squares.",
+      "answers": {
+        "a": "a) Yes",
+        "b": "b) No"
+      },
+      "correctAnswer": "a) Yes",
+      "difficulty": "advance"
     }
   ]
 }
