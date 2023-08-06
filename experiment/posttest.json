@@ -4,49 +4,92 @@
     {
       "question": "1. In how many parts shall the semi circle be divided while constructing a regular hexagon?",
       "answers": {
-        "a": "a) Six",
-        "b": "b) Five",
-        "c": "c) Seven",
-        "d": "d) Four"
+        "a": "Seven",
+        "b": "Five",
+        "c": "Six",
+        "d": "Four"
       },
-      "correctAnswer": "a) Six",
+      "explanations": {
+        "c": "Six"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "2. While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
       "answers": {
-        "a": "a) 5",
-        "b": "b) 6"
+        "a": "6",
+        "b": "5"
       },
-      "correctAnswer": "a) 5",
+      "explanations": {
+        "b": "5"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
       "question": "3. The bisection of angle is important while inscribing a circle in a triangle.",
       "answers": {
-        "a": "a) True",
-        "b": "b) False"
+        "a": "True",
+        "b": "False"
       },
-      "correctAnswer": "a) True",
-      "difficulty": "intermediate"
+      "explanations": {
+        "a": "True"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     },
     {
       "question": "4. The radii of the compass can be altered in between while dividing a line segment",
       "answers": {
-        "a": "a) True",
-        "b": "b) False"
+        "a": "True",
+        "b": "False"
       },
-      "correctAnswer": "b) False",
+      "explanations": {
+        "b": "False"
+      },
+      "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
       "question": "5. Polygons can also be constructed by using set squares.",
       "answers": {
-        "a": "a) Yes",
-        "b": "b) No"
+        "a": "Yes",
+        "b": "No"
       },
-      "correctAnswer": "a) Yes",
-      "difficulty": "advance"
+      "explanations": {
+        "a": "Yes"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. What is the ratio of length of diagonal to the length of a side in a regular pentagon?",
+      "answers": {
+        "a": "1:1",
+        "b": "4:1",
+        "c": "1:2",
+        "d": "2:1"
+      },
+      "explanations": {
+        "d": "2:1"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "7. What is the relationship between the centroid, circumcentre and the incentre of an equilateral triangle?.",
+      "answers": {
+        "a": "They coincide at the same point.",
+        "b": "They are collinear",
+        "c": "Both of the above",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "They coincide at the same point."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
