@@ -1,0 +1,103 @@
+/* ID FILE IS SPECIFIC TO THAT EXPERMENT ONLY !!  */
+
+/* TEXT  */
+
+#instructions1-step1{
+    visibility: visible;
+}
+
+#instruction2-step1{
+    visibility: hidden;
+}
+
+
+/* IMAGES  */
+
+#gif1-step1, #gif2-step1{
+    visibility: hidden;
+}
+
+#png2-step1{
+    visibility: hidden;
+}
+
+/* PENCILS  */
+
+#pencil1-step1{
+    visibility: hidden;
+    width: 145px;
+    top: 185px;
+    left: 620px;
+    rotate: -50deg;
+}
+
+#pencil2-step1{
+    visibility: hidden;
+    width: 145px;
+    top: 200px;
+    left: 570px;
+    rotate: -30deg;
+}
+
+/* DropMenus  */
+
+#dropMenu1-step1,#dropMenu2-step1{
+    visibility: hidden;
+    top: 120px;
+    left: 420px;
+}
+
+/* #drop-menu2-step1{
+    top: 170px;
+    left: 430px;
+} */
+
+/* BUTTONS  */
+
+
+
+/* TRANSBOXES  */
+
+#trans1-step1, #trans2-step1{
+    visibility: hidden;
+    /* border: 1px solid red; */
+    top: 80px;
+    left: 425px;
+    width: 55px;
+    height: 40px;
+}
+
+#trans3-step1{
+    visibility: hidden;
+    border: 1px solid red;
+    width: 100px;
+    top: 125px;
+    left: 650px;
+}
+
+/* ARROWS  */
+
+#arr1-step1{
+    visibility: visible;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+#arr2-step1{
+    visibility: visible;
+    top: 120px;
+    left: 425px;
+}
+
+#arr3-step1{
+    visibility: hidden;
+    top: 170px;
+    left: 700px;
+}
+
+#arr4-step1{
+    visibility: hidden;
+    top: 200px;
+    left: 650px;
+}

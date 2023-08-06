@@ -1,0 +1,192 @@
+#nextBtnOfStarter{
+    visibility: hidden;
+}
+
+/* SETUP 1  */
+
+#png1-board{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    width: 350px;
+    height: 260px;
+}
+
+#png1-sheet{
+    position: absolute;
+    width: 330px;
+    height: 240px;
+    top: 50px;
+    left: 430px;
+    animation: 1.5s 1 ease forwards moveSheet;
+    animation-play-state: paused;
+}
+
+.arr-setup1{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: 125px;
+    left: 350px;
+}
+
+@keyframes moveSheet{
+    from{
+        top: 50px;
+        left: 430px;
+    }
+    to{
+        top: 280px;
+        left: 30px;
+    }
+}
+
+/* SETUP 2  */
+
+#png2-board{
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    width: 380px;
+    height: 280px;
+}
+
+#png2-sheet{
+    position: absolute;
+    width: 360px;
+    height: 260px;
+    top: 280px;
+    left: 50px;
+}
+
+.arr-setup2{
+    position: absolute;
+    visibility: hidden;
+    width: 80px;
+    height: 40px;
+    top: 160px;
+    left: 480px;
+}
+
+
+.clips-3d-starter{
+    position: absolute;
+    visibility: hidden;
+    width: 80px;
+    height: 80px;
+    left: 550px;
+    top: 150px;
+}
+
+#clip2-3d-starter{
+    left: 620px;
+}
+
+#clip3-3d-starter{
+    top: 220px;
+}
+
+#clip4-3d-starter{
+    top: 220px;
+    left: 620px;
+}
+
+.drafter1-starter{
+    position: absolute;
+    visibility: hidden;
+    width: 180px;
+    height: 180px;
+    top: 300px;
+    left: 550px;
+}
+
+.clips-normal-starter{
+    position: absolute;
+    visibility: hidden;
+    width: 15px;
+    height: 30px;
+}
+
+#clip1-starter{
+    animation: 2s 1 ease forwards moveClip1;
+    animation-play-state: paused;
+}
+
+#clip2-starter{
+    animation: 2s 1 ease forwards moveClip2;
+    animation-play-state: paused;
+}
+
+#clip3-starter{
+    animation: 2s 1 ease forwards moveClip3;
+    animation-play-state: paused;
+}
+
+#clip4-starter{
+    animation: 2s 1 ease forwards moveClip4;
+    animation-play-state: paused;
+}
+
+.drafter2-starter{
+    position: absolute;
+    visibility: hidden;
+    width: 180px;
+    height: 180px;
+    animation: 2s 1 ease forwards movingDrafter;
+    animation-play-state: paused;
+}
+
+@keyframes moveClip1{
+    from{
+        left: 550px;
+        top: 150px;
+    }
+    to{
+        top : 265px;
+        left: 55px;
+    }
+}
+
+@keyframes moveClip2{
+    from{
+        left: 620px;
+        top: 150px;
+    }
+    to{
+        top : 265px;
+        left: 390px;
+    }
+}
+
+@keyframes moveClip3{
+    from{
+        left: 550px;
+        top: 220px;
+    }
+    to{
+        top : 520px;
+        left: 55px;
+    }
+}
+
+@keyframes moveClip4{
+    from{
+        top: 220px;
+        left: 620px;
+    }
+    to{
+        top : 520px;
+        left: 390px;
+    }
+}
+
+@keyframes movingDrafter{
+    from{
+        top: 300px;
+        left: 550px;
+    }
+    to{
+        top : 265px;
+        left: 5px;
+    }
+}

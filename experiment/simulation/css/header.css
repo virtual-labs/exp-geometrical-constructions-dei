@@ -1,0 +1,50 @@
+/* style the header container  */
+
+.header{
+    /* display: flex;
+    justify-content: space-around; */
+    /* background-color: red; */
+    /* padding: 1px; */
+    margin: 0px;
+}
+
+.header .header-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.header img{
+    width: 100px;
+    height: auto;
+}
+
+/* style the navigation menu  */
+nav{
+    background-color: rgba(51,51,51,255);
+    padding: 7px;
+}
+nav ul{
+    /* background-color: black; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    /* padding: px; */
+}
+
+nav ul li a:hover{
+    opacity: .7;
+    /* background-color: white;
+    color: black; */
+}
