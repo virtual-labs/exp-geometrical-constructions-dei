@@ -1,4 +1,4 @@
-### Procedure
+## Procedure
 
 ### 1.	Divide a  straight line into a given number of equal parts.
 

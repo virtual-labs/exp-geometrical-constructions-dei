@@ -4,50 +4,126 @@
     {
       "question": "1. A normal is the radius which is drawn parallel to the tangent",
       "answers": {
-        "a": "a) True",
-        "b": "b) False"
+        "a": "True",
+        "b": "False"
       },
-      "correctAnswer": "b) False",
+      "explanations": {
+        "b": "False"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "2. An inscribed circle is a circle contained within a triangle.",
+      "question": "2. What is the process of dividing a line into three equal parts known as?",
       "answers": {
-        "a": "a) True",
-        "b": "b) False"
+        "a": "Subdivision",
+        "b": "Bisection",
+        "c": "Trisection",
+        "d": "None of the above"
       },
-      "correctAnswer": "a) True",
+      "explanations": {
+        "c": "Trisection"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
-    },{
-      "question": "3. Polygons with equal sides and equal angles are known as _____",
+    },
+    {
+      "question": "3. How much does each angle of octagon measure?",
       "answers": {
-        "a": "a) Uniform polygons",
-        "b": "b) True polygons",
-        "c": "c) Regular polygons",
-        "d": "d) Real polygons"
+        "a": "90°",
+        "b": "120°",
+        "c": "75°",
+        "d": "108°"
       },
-      "correctAnswer": "c) Regular polygons",
+      "explanations": {
+        "d": "108°"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following involves inscribing a circle inside a triangle such that it touches all the sides of the triangle?",
+      "answers": {
+        "a": "Circumcentre construction",
+        "b": "In centre construction",
+        "c": "Excentre construction",
+        "d": "Medial triangle construction"
+      },
+      "explanations": {
+        "b": "In centre construction"
+      },
+      "correctAnswer": "b",
       "difficulty": "intermediate"
-    },{
-      "question": "4. Which of the following theorem is used to divide a line segment into a number of equal parts?",
+    },
+    {
+      "question": "5. Polygons with equal sides and equal angles are known as _____",
       "answers": {
-        "a": "a) Pythagoras’ theorem ",
-        "b": "b) Right-angle theorem",
-        "c": "c) Thales theorem",
-        "d": "d) Congruence theorem"
+        "a": "Uniform polygons",
+        "b": "True polygons",
+        "c": "Regular polygons",
+        "d": "Real polygons"
       },
-      "correctAnswer": "c) Thales theorem",
+      "explanations": {
+        "c": "Regular polygons"
+      },
+      "correctAnswer": "c",
       "difficulty": "intermediate"
-    },{
-      "question": "5. Which of the following geometry consists of N number of circles with a common centre?",
+    },
+    {
+      "question": "6. In a regular hexagon, the interior angle and the exterior angle at each vertex are ______ to each other",
       "answers": {
-        "a": "a) Concentric circle",
-        "b": "b) Circumscribed circle",
-        "c": "c) Inscribed circle",
-        "d": "d) Sphere"
+        "a": "Complementary",
+        "b": "Equal",
+        "c": "Supplementary",
+        "d": "None of the above"
       },
-      "correctAnswer": "a) Concentric circle",
-      "difficulty": "advance"
+      "explanations": {
+        "c": "Supplementary"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which of the following theorem is used to divide a line segment into a number of equal parts?",
+      "answers": {
+        "a": "Pythagoras’ theorem ",
+        "b": "Right-angle theorem",
+        "c": "Thales theorem",
+        "d": "Congruence theorem"
+      },
+      "explanations": {
+        "c": "Thales theorem"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. How many diagonals can be constructed in a regular hexagon?",
+      "answers": {
+        "a": "12",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "explanations": {
+        "a": "12"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Which of the following geometry consists of N number of circles with a common centre?",
+      "answers": {
+        "a": "Concentric circle",
+        "b": "Circumscribed circle",
+        "c": "Inscribed circle",
+        "d": "Sphere"
+      },
+      "explanations": {
+        "a": "Concentric circle"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
