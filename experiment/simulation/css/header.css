@@ -22,7 +22,7 @@
 
 /* style the navigation menu  */
 nav{
-    background-color: rgba(51,51,51,255);
+    background-color: lightgray;
     padding: 7px;
 }
 nav ul{

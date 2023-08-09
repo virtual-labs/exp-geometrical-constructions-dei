@@ -23,10 +23,10 @@
 .assembly{
     visibility: visible;
     position: absolute;
-    width: 500px;
+    width: 450px;
     height: 40px;
     top: 80px;
-    left: 150px;
+    left: 170px;
 }
 
 .exp-image-section{
@@ -39,13 +39,19 @@
 
 .exp-pencil{
     position: absolute;
+    visibility: hidden;
+}
+
+.exp-compass{
+    position: absolute;
+    visibility: hidden;
 }
 
 /* DropMenus  */
 
 .dropMenu{
     position: absolute;
-    width: 75px;
+    width: 70px;
     padding: 5px;
     border-radius: 4px;
     font-size: 14px;
@@ -80,12 +86,14 @@
 
 .exp-transboxes{
     position: absolute;
+    visibility: hidden;
 }
 
 /* ARROWS  */
 
 .exp-arrows{
     position: absolute;
+    visibility: hidden;
     width: 50px;
 }
 
