@@ -2,6 +2,14 @@
     visibility: hidden;
 }
 
+.arr-next{
+    visibility: hidden;
+    position: absolute;
+    width: 50px;
+    top: 522px;
+    left: 680px;
+}
+
 /* SETUP 1  */
 
 #png1-board{

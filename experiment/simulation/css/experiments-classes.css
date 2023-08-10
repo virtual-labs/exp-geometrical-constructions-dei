@@ -23,14 +23,14 @@
 .assembly{
     visibility: visible;
     position: absolute;
-    width: 500px;
+    width: 450px;
     height: 40px;
     top: 80px;
-    left: 150px;
+    left: 170px;
 }
 
-.exp-image-section{
-    visibility: visible;
+.exp-image-section, .exp-image-section-gifs{
+    visibility: hidden;
     position: absolute;
     width: 700px;
     top: 125px;
@@ -39,13 +39,19 @@
 
 .exp-pencil{
     position: absolute;
+    visibility: hidden;
+}
+
+.exp-compass{
+    position: absolute;
+    visibility: hidden;
 }
 
 /* DropMenus  */
 
 .dropMenu{
     position: absolute;
-    width: 75px;
+    width: 70px;
     padding: 5px;
     border-radius: 4px;
     font-size: 14px;
@@ -53,8 +59,12 @@
 
 /* BUTTONS  */
 
-.back-exp,.next-exp{
+/* .back-exp, */
+.next-exp{
+    visibility: hidden;
     position: absolute;
+    left: 730px;
+    top: 523px;
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -64,28 +74,23 @@
     cursor: pointer;
 }
 
-.back-exp{
-    visibility: hidden;
-    left: 660px;
-    top: 520px;
-}
-
 .next-exp{
     visibility: hidden;
-    left: 730px;
-    top: 520px;
+    
 }
 
 /* TRANSBOXES  */
 
 .exp-transboxes{
     position: absolute;
+    visibility: hidden;
 }
 
 /* ARROWS  */
 
 .exp-arrows{
     position: absolute;
+    visibility: hidden;
     width: 50px;
 }
 

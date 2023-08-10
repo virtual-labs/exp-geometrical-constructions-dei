@@ -12,14 +12,19 @@ document.querySelector("#png1-sheet").addEventListener("click", (evt) => {
     document.querySelector(".arr-setup1").style.visibility = "hidden";
     // console.log(evt);
     evt.target.style.animationPlayState = "running";
-    setTimeout(()=> document.querySelector("#next-to-setup2").style.visibility = "visible", 1500);
+    setTimeout(()=> {
+        document.querySelector(".arr-next").style.visibility = "visible";
+        document.querySelector("#next-to-setup2").style.visibility = "visible"
+    }, 1500);
 })
 
 // SETUP 2 
 
 document.querySelector("#next-to-setup2").addEventListener("click",(evt) => {
     document.querySelector("#next-to-setup2").style.visibility = "hidden";
+    document.querySelector(".arr-next").style.visibility = "hidden";
     document.querySelector("#setupPage1").style.visibility = "hidden"
+
     document.querySelector("#setupPage2").style.visibility = "visible";
     // document.querySelector("#png3-sheet").style.visibility = "visible";
     // document.querySelector("#png4-board").style.visibility = "visible";
@@ -79,6 +84,9 @@ function showNextBtn(clicks){
         document.querySelector("#arr1-setup2").style.visibility = "hidden";
     }
     if(clicks === 5){
-        setTimeout(() => document.querySelector("#nextBtnOfStarter").style.visibility = "visible", 1000);
+        setTimeout(() => {
+        document.querySelector("#nextBtnOfStarter").style.visibility = "visible";
+        document.querySelector(".arr-next").style.visibility = "visible";
+    }, 1000);
     }
 }
