@@ -12,7 +12,7 @@
 
 /* DropMenus  */
 
-#dropMenu1-step1,#dropMenu2-step1{
+#dropMenu1-step1, #dropMenu2-step1, #dropMenu3-step1{
     visibility: hidden;
     top: 120px;
     left: 425px;
@@ -20,17 +20,7 @@
 
 /* IMAGES  */
 
-#gif1-step1, #gif2-step1, #gif3-step1, #gif4-step1{
-    visibility: hidden;
-}
 
-/* #gif4-step1{
-    visibility: visible;
-} */
-
-#png2-step1, #png3-step1{
-    visibility: hidden;
-}
 
 /* PENCILS  */
 
@@ -41,7 +31,7 @@
     rotate: -50deg;
 }
 
-#pencil2-step1{
+#pencil2-step1, #pencil3-step1{
     width: 145px;
     top: 200px;
     left: 570px;
@@ -51,7 +41,6 @@
 /* COMPASS  */
 
 #compass1-step1{
-    /* visibility: visible; */
     width: 50px;
     height: 140px;
     top: 165px;
@@ -60,13 +49,14 @@
 
 /* BUTTONS  */
 
-
+#arr-next{
+    left: 680px;
+    top: 525px;
+}
 
 /* TRANSBOXES  */
 
-#trans1-step1, #trans2-step1{
-    /* visibility: visible; */
-    /* border: 1px solid red; */
+#trans1-step1, #trans2-step1, #trans8-step1{
     top: 80px;
     left: 425px;
     width: 65px;
@@ -74,8 +64,6 @@
 }
 
 #trans3-step1{
-    /* visibility: visible; */
-    /* border: 1px solid red; */
     top: 80px;
     left: 485px;
     width: 65px;
@@ -83,8 +71,6 @@
 }
 
 #trans4-step1{
-    /* visibility: visible; */
-    border: 1px solid red;
     top: 245px;
     left: 330px;
     width: 165px;
@@ -92,15 +78,37 @@
     rotate: -40deg;  
 }
 
-/* #trans5-step1{
-    visibility: hidden;
-    border: 1px solid red;
+#trans5-step1{
+    top: 255px;
+    left: 360px;
+    width: 165px;
+    height: 40px; 
+    rotate: -40deg;  
+}
+
+#trans6-step1{
+    top: 270px;
+    left: 380px;
+    width: 165px;
+    height: 40px; 
+    rotate: -40deg;  
+}
+
+#trans7-step1{
+    top: 285px;
+    left: 400px;
+    width: 165px;
+    height: 40px; 
+    rotate: -40deg;  
+}
+
+#trans9-step1, #trans10-step1, #trans11-step1, #trans12-step1, #trans13-step1{
     width: 160px;
     height: 30px;
     top: 190px;
     left: 570px;
     rotate: -35deg;
-} */
+}
 
 /* ARROWS  */
 
@@ -118,31 +126,41 @@
 }
 
 #arr3-step1{
-    /* visibility: visible; */
     top: 170px;
     left: 700px;
 }
 
 #arr4-step1{
-    /* visibility: visible; */
     top: 200px;
     left: 650px;
 }
 
 #arr5-step1{
-    /* visibility: visible; */
     top: 120px;
     left: 490px;
 }
 
 #arr6-step1{
-    /* visibility: visible; */
     top: 200px;
     left: 670px;
 }
 
 #arr7-step1{
-    /* visibility: visible; */
     top: 250px;
     left: 440px;
+}
+
+#arr8-step1{
+    top: 250px;
+    left: 480px;
+}
+
+#arr9-step1{
+    top: 260px;
+    left: 510px;
+}
+
+#arr10-step1{
+    top: 270px;
+    left: 530px;
 }

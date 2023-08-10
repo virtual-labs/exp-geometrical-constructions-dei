@@ -29,8 +29,8 @@
     left: 170px;
 }
 
-.exp-image-section{
-    visibility: visible;
+.exp-image-section, .exp-image-section-gifs{
+    visibility: hidden;
     position: absolute;
     width: 700px;
     top: 125px;
@@ -59,8 +59,12 @@
 
 /* BUTTONS  */
 
-.back-exp,.next-exp{
+/* .back-exp, */
+.next-exp{
+    visibility: hidden;
     position: absolute;
+    left: 730px;
+    top: 523px;
     padding: 10px 15px;
     color: white;
     background-color: rgb(20, 117, 228);
@@ -70,16 +74,9 @@
     cursor: pointer;
 }
 
-.back-exp{
-    visibility: hidden;
-    left: 660px;
-    top: 520px;
-}
-
 .next-exp{
     visibility: hidden;
-    left: 730px;
-    top: 520px;
+    
 }
 
 /* TRANSBOXES  */

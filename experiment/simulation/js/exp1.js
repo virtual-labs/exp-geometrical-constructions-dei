@@ -1,9 +1,3 @@
-// THIS SINGLE FUNCTION WILL STOP THE setTimeOut Functions
-
-// function myStopFuntion(){
-//     clearTimeout(myTimeout);
-// }
-
 // STEP 1 
 
 // VARIABLES;
@@ -14,7 +8,10 @@ const pencil1Step1 = document.querySelector("#pencil1-step1");
 
 // once dom loaded then trans1Step1 will get activated.
 
-addEventListener("DOMContentLoaded", () => trans1Step1.style.visibility = "visible");
+addEventListener("DOMContentLoaded", () =>{
+    trans1Step1.style.visibility = "visible";
+    document.querySelector("#png1-step1").style.visibility = "visible";
+});
 
 trans1Step1.addEventListener("click",() => {
     trans1Step1.style.visibility = "hidden";
@@ -90,7 +87,7 @@ pencil2Step1.addEventListener("click", (evt) => {
     setTimeout(() => {
     document.querySelector("#png3-step1").style.visibility = "visible";
     document.querySelector("#gif2-step1").style.visibility = "hidden";
-    document.querySelector("#instructions-step1").innerText = "Now, Select compass";
+    document.querySelector("#instructions-step1").innerText = "Now, Select compass and draw some lines!!";
 
     document.querySelector("#arr1-step1").style.visibility = "visible";
     document.querySelector("#arr5-step1").style.visibility = "visible";
@@ -133,9 +130,175 @@ tran4Step1.addEventListener("click", (evt)=> {
     document.querySelector("#gif4-step1").style.visibility = "visible";
 
     setTimeout(()=>{
-        // document.querySelector("#arr8-step1").style.visibility = "visible";
-        // tran5Step1.style.visibility = "visible";
-    }, 6000);
+        document.querySelector("#arr8-step1").style.visibility = "visible";
+        tran5Step1.style.visibility = "visible";
+    }, 5500);
 });
 
-// const tran5Step1 = document.querySelector("#trans5-step1");
+const tran5Step1 = document.querySelector("#trans5-step1");
+
+tran5Step1.addEventListener("click", (evt)=> {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr8-step1").style.visibility = "hidden";
+    document.querySelector("#gif4-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif5-step1").style.visibility = "visible";
+
+    setTimeout(()=>{
+        document.querySelector("#arr9-step1").style.visibility = "visible";
+        tran6Step1.style.visibility = "visible";
+    }, 5500);
+});
+
+const tran6Step1 = document.querySelector("#trans6-step1");
+
+tran6Step1.addEventListener("click", (evt)=> {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr9-step1").style.visibility = "hidden";
+    document.querySelector("#gif5-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif6-step1").style.visibility = "visible";
+
+    setTimeout(()=>{
+        document.querySelector("#arr10-step1").style.visibility = "visible";
+        tran7Step1.style.visibility = "visible";
+    }, 5500);
+});
+
+const tran7Step1 = document.querySelector("#trans7-step1");
+
+tran7Step1.addEventListener("click", (evt)=> {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr10-step1").style.visibility = "hidden";
+    document.querySelector("#gif6-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif7-step1").style.visibility = "visible";
+
+    setTimeout(()=>{
+        document.querySelector("#gif7-step1").style.visibility = "hidden";
+        document.querySelector("#png4-step1").style.visibility = "visible";
+        document.querySelector("#arr1-step1").style.visibility = "visible";
+        document.querySelector("#arr2-step1").style.visibility = "visible";
+        document.querySelector("#instructions-step1").innerText = "Now, Select 3H pencil to draw parallel lines";
+        tran8Step1.style.visibility = "visible";
+    }, 5500);
+});
+
+const tran8Step1 = document.querySelector("#trans8-step1");
+const dropMenu3Step1 = document.querySelector("#dropMenu3-step1");
+
+tran8Step1.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr1-step1").style.visibility = "hidden";
+    document.querySelector("#arr2-step1").style.visibility = "hidden";
+    dropMenu3Step1.style.visibility = "visible";
+    dropMenu2Step1.value = "default";
+});
+
+dropMenu3Step1.addEventListener("change",() => {
+    let selectedValue = dropMenu3Step1.value;
+    if(selectedValue === "3hPencil"){
+        dropMenu3Step1.style.visibility = "hidden";
+        pencil3Step1.style.visibility = "visible";
+        document.querySelector("#arr4-step1").style.visibility = "visible";
+    }else{
+        alert("Please select 3H Pencil");
+    }
+});
+
+const pencil3Step1 = document.querySelector("#pencil3-step1");
+
+pencil3Step1.addEventListener("click", (evt)=>{
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr4-step1").style.visibility = "hidden";
+    document.querySelector("#png4-step1").style.visibility = "hidden";
+    document.querySelector("#gif8-step1").style.visibility = "visible";
+
+    setTimeout(()=>{
+        tran9Step1.style.visibility = "visible";
+        document.querySelector("#arr4-step1").style.visibility = "visible";
+    }, 8000);
+});
+
+const tran9Step1 = document.querySelector("#trans9-step1");
+
+tran9Step1.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr4-step1").style.visibility = "hidden";
+    document.querySelector("#gif8-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif9-step1").style.visibility = "visible";
+
+    setTimeout(()=> {
+        tran10Step1.style.visibility = "visible";
+        document.querySelector("#arr4-step1").style.visibility = "visible";
+    }, 8000);
+});
+
+const tran10Step1 = document.querySelector("#trans10-step1");
+
+tran10Step1.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr4-step1").style.visibility = "hidden";
+    document.querySelector("#gif9-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif10-step1").style.visibility = "visible";
+
+    setTimeout(()=> {
+        tran11Step1.style.visibility = "visible";
+        document.querySelector("#arr4-step1").style.visibility = "visible";
+    }, 8000);
+});
+
+const tran11Step1 = document.querySelector("#trans11-step1");
+
+tran11Step1.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr4-step1").style.visibility = "hidden";
+    document.querySelector("#gif10-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif11-step1").style.visibility = "visible";
+
+    setTimeout(()=> {
+        tran12Step1.style.visibility = "visible";
+        document.querySelector("#arr4-step1").style.visibility = "visible";
+    }, 8000);
+});
+
+const tran12Step1 = document.querySelector("#trans12-step1");
+
+tran12Step1.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr4-step1").style.visibility = "hidden";
+    document.querySelector("#gif11-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif12-step1").style.visibility = "visible";
+
+    setTimeout(()=> {
+        tran13Step1.style.visibility = "visible";
+        document.querySelector("#arr4-step1").style.visibility = "visible";
+    }, 8000);
+});
+
+const tran13Step1 = document.querySelector("#trans13-step1");
+
+tran13Step1.addEventListener("click", (evt) => {
+    evt.target.style.visibility = "hidden";
+    document.querySelector("#arr4-step1").style.visibility = "hidden";
+    document.querySelector("#gif12-step1").style.visibility = "hidden";
+
+    document.querySelector("#gif13-step1").style.visibility = "visible";
+
+    setTimeout(()=> {
+        nextBtnExp1.style.visibility = "visible";
+        document.querySelector("#arr-next").style.visibility = "visible";
+    }, 3500);
+});
+
+const nextBtnExp1 = document.querySelector("#nextToExpListFromExp1");
+
+nextBtnExp1.addEventListener("click", () => {
+    // parent.location = `../../html/exp-list.html`;
+    parent.location = `../exp-list.html`;   // both of this addresses will work.
+
+})
