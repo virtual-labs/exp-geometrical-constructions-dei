@@ -46,7 +46,7 @@ pencil1Step1.addEventListener("click", (evt) => {
         document.querySelector("#gif1-step1").style.visibility = "hidden";
         document.querySelector("#png2-step1").style.visibility = "visible";
 
-        document.querySelector("#instructions-step1").innerText = "Now, Select 3H pencil and draw a line at any random angle";
+        document.querySelector("#instructions-step1").innerText = "Now, select 3H pencil and draw another line from A at any suitable angle.";
 
         document.querySelector("#arr1-step1").style.visibility = "visible";
         document.querySelector("#arr2-step1").style.visibility = "visible";
@@ -87,9 +87,10 @@ pencil2Step1.addEventListener("click", (evt) => {
     setTimeout(() => {
     document.querySelector("#png3-step1").style.visibility = "visible";
     document.querySelector("#gif2-step1").style.visibility = "hidden";
-    document.querySelector("#instructions-step1").innerText = "Now, Select compass and draw some lines!!";
+    document.querySelector("#instructions-step1").innerText = "Select the compass and set it to a certain length. Starting from point A, draw 5 equidistant arcs on the line AC.";
 
     document.querySelector("#arr1-step1").style.visibility = "visible";
+    document.querySelector("#arr1-step1").style.top = "60px";
     document.querySelector("#arr5-step1").style.visibility = "visible";
     trans3Step1.style.visibility = "visible";
     }, 10000);
@@ -177,9 +178,10 @@ tran7Step1.addEventListener("click", (evt)=> {
     setTimeout(()=>{
         document.querySelector("#gif7-step1").style.visibility = "hidden";
         document.querySelector("#png4-step1").style.visibility = "visible";
-        document.querySelector("#arr1-step1").style.visibility = "visible";
         document.querySelector("#arr2-step1").style.visibility = "visible";
-        document.querySelector("#instructions-step1").innerText = "Now, Select 3H pencil to draw parallel lines";
+        document.querySelector("#arr1-step1").style.visibility = "visible";
+        // document.querySelector("#arr1-step1").style.top = "60px";
+        document.querySelector("#instructions-step1").innerText = "Again select 3H pencil and join the last arc with point B. Similarly draw parallel lines from rest of the arcs, dividing the line segment AB into 5 equal parts.";
         tran8Step1.style.visibility = "visible";
     }, 5500);
 });
@@ -292,7 +294,7 @@ tran13Step1.addEventListener("click", (evt) => {
     setTimeout(()=> {
         nextBtnExp1.style.visibility = "visible";
         document.querySelector("#arr-next").style.visibility = "visible";
-    }, 3500);
+    }, 2500);
 });
 
 const nextBtnExp1 = document.querySelector("#nextToExpListFromExp1");
