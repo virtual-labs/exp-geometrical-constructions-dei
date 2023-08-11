@@ -49,9 +49,20 @@ main{
 .content-main{
     position: absolute;
     display: inline-block;
+    text-align: justify;
     top: 30px;
     left: 100px;
-    width: 1000px;
+    width: 690px;
+    font-size: 20px;
+}
+
+.instruments{
+    position: absolute;
+    display: inline-block;
+    text-align: justify;
+    top: 100px;
+    left: 165px;
+    width: 690px;
     font-size: 20px;
 }
 
@@ -118,13 +129,5 @@ main{
     position: absolute;
     width: 600px;
     left: 0px;
-    top: 200px;
-}
-
-#mainPageImg{
-    position: absolute;
-    width: 600px;
-    height: 500px;
-    left: 100px;
     top: 200px;
 }
