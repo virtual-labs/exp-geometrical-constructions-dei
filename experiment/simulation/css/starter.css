@@ -6,7 +6,15 @@
 
 .starter-png1{
     position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    left: 200px;
+}
+
+#mainPageImgExp1{
     width: 600px;
+    height: 200px;
     top: 200px;
     left: 100px;
 }

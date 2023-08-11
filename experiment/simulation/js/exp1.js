@@ -343,10 +343,10 @@ nextToFinalPng.addEventListener("click", (evt) => {
     setTimeout(()=> {
         nextBtnExp1.style.visibility = "visible";
         arrNext.style.visibility = "visible";
-    }, 2500);
+    }, 1500);
 })
 
 nextBtnExp1.addEventListener("click", () => {
     // parent.location = `../../html/exp-list.html`;
-    parent.location = `../exp-list.html`;   // both of this addresses will work.
+    parent.location = `../exp-list.html`;   // both of these addresses will work.
 })
