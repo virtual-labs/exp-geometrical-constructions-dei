@@ -14,7 +14,11 @@
 }
 
 .intructions{
-    display: inline-block;
+    position: absolute;
+    display: inline;
+    left: 90px;
+    width: 700px;
+    text-align: justify;
     font-size: 20px;
 }
 
