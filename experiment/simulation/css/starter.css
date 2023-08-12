@@ -2,6 +2,23 @@
     visibility: hidden;
 }
 
+/* IMAGES  */
+
+.starter-png1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 100px;
+    left: 200px;
+}
+
+#mainPageImgExp1{
+    width: 600px;
+    height: 200px;
+    top: 200px;
+    left: 100px;
+}
+
 .arr-next{
     visibility: hidden;
     position: absolute;
@@ -24,7 +41,7 @@
     position: absolute;
     width: 330px;
     height: 240px;
-    top: 50px;
+    top: 70px;
     left: 430px;
     animation: 1.5s 1 ease forwards moveSheet;
     animation-play-state: paused;
@@ -34,13 +51,13 @@
     position: absolute;
     width: 80px;
     height: 40px;
-    top: 125px;
+    top: 150px;
     left: 350px;
 }
 
 @keyframes moveSheet{
     from{
-        top: 50px;
+        top: 70px;
         left: 430px;
     }
     to{

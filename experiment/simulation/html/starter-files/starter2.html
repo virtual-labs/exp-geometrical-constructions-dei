@@ -12,20 +12,20 @@
     <link rel="stylesheet" href="../../css/main-content.css" />
     <link rel="stylesheet" href="../../css/starter.css">
     <script src="../../js/starter.js" defer></script>
-    <title>Experiment 2</title>
+    <title>Experiment 1</title>
   </head>
   <body>
     <header class="header">
       <div class="header-img">
         <img src="../../images/header.png" alt="virtual-lab-logo" class="vlab-logo" />
-        <h1>Virtual labs</h1>
+        <h1 style="color: rgb(20, 117, 228);" >Virtual labs</h1>
         <img src="../../images/dei.jpg" alt="dei-logo" class="dei-logo" />
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experiments</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
           <!-- <li><a href="#"></a></li> -->
         </ul>
       </nav>
@@ -37,31 +37,52 @@
         <!-- mainPage  -->
         <div class="content-container" id="mainPage" style="visibility: visible;">
 
-          <h3 class="instruction" style>Objective:</h3>
+          <h3 class="instruction-main" style>Objective:</h3>
 
-          <p class="content" id="content">To incribe a regular pentagon in a given circle of diameter, say 150mm.</p>
+          <p class="content-main" id="content">Divide a  straight line into a given number of equal parts, say 5.</p>
 
           <!-- <h3 class="instruction" style="top: 100px">Instruments used:</h3> -->
 
-          <img class="mainPageImg" id="mainPageImg" src="../../images/exp2Images/mainPageImg-step2.png" alt="Instruments"/>
+          <img class="starter-png1" id="mainPageImgExp2" src="../../images/exp2Images/mainPageImgExp2.png" alt="Instruments"/>
 
           <button style="position: absolute;" class="next" id="next-to-setup1" onclick="">Start</button>
           
         </div>
         
         <!-- setupPage  -->
-        <div class="content-container" id="setupPage" style="visibility: hidden;">
+          <div class="content-container" id="setupPage1" style="visibility: hidden;">
           
             <h3 class="instruction" style>Step1:</h3>
 
-            <p class="content" id="content">Place the sheet on the drawing board.</p>
+            <p class="content" id="content-starter">Setup the drawing board. Place the drawing sheet on the drawing board.</p>
+            
+            <img class="instruments-img" id="png1-board"
+            src="../../images/starterImages/drawing board.png" alt="board-image">
+            
+            <img class="instruments-img" id="png1-sheet" src="../../images/starterImages/sheet.png" alt="sheet-image">
+            
+            <img class="arr-setup1" id="arr1-setup1" src="../../images/arrow-right.gif" alt="arrow">
 
-            <img class="instruments-img" id="png1-starter"
-            src="../../images/starterImages/starter-png.png" alt="board-image">
+            <!-- ARROW  -->
 
-            <img class="instruments-img" id="gif1-starter" src="../../images/starterImages/starter-moving-sheet.gif" alt="gif">
+            <img class="arr-next" id="arr-next1" src="../../images/arrow-right.gif" alt="arr-next">
 
-            <img class="transbox" id="trans1-starter" src="../../images/transbox.png" alt="transbox">
+            <button style="position: absolute;" class="next" id="next-to-setup2" onclick="">Next</button>
+
+          </div>
+
+          <div class="content-container" id="setupPage2" style="visibility: hidden;">
+              
+            <h3 class="instruction" style>Step2:</h3>
+
+            <p class="content" id="content-starter">Attach the clips gently on the four corners of sheet and place the mini drafter.</p>
+
+            <img class="instruments-img" id="png2-board"
+            src="../../images/starterImages/drawing board.png" alt="board-image">
+            
+            <img class="instruments-img" id="png2-sheet" src="../../images/starterImages/sheet.png" alt="sheet-image">
+
+            <img class="arr-setup2" id="arr1-setup2" src="../../images/arrow-right.gif" alt="arrow">
 
             <!-- Before Animation  -->
 
@@ -87,7 +108,7 @@
 
             <img class="drafter2-starter" id="drafter2-starter" src="../../images/starterImages/DRAFTER1.png" alt="drafter2">
 
-            <button class="next" id="nextBtnOfStarter" onclick="parent.location=`../experiments-files/exp2.html`" >Next</button>
+            <button class="next" id="nextBtnOfStarter" onclick="parent.location=`../experiments-files/exp2.html`">Next</button>
         </div>
 
     </div>
