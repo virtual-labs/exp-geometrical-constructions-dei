@@ -6,17 +6,17 @@
 
 .starter-png1{
     position: absolute;
-    width: 400px;
+    width: 350px;
     height: 400px;
-    top: 100px;
-    left: 200px;
+    top: 90px;
+    left: 220px;
 }
 
 #mainPageImgExp1{
-    width: 600px;
-    height: 200px;
-    top: 200px;
-    left: 100px;
+    position: absolute;
+    width: 700px;
+    top: 125px;
+    left: 50px;
 }
 
 .arr-next{

@@ -56,111 +56,43 @@
 
 /* TRANSBOXES  */
 
-#trans1-step1, #trans2-step1, #trans8-step1{
-    top: 80px;
+#trans1-step1, #trans2-step1, #trans4-step1{
+    top: 70px;
     left: 425px;
     width: 65px;
-    height: 40px;
+    height: 50px;
 }
 
 #trans3-step1{
-    top: 80px;
+    top: 70px;
     left: 485px;
     width: 65px;
-    height: 40px;
-}
-
-#trans4-step1{
-    top: 245px;
-    left: 330px;
-    width: 165px;
-    height: 40px; 
-    rotate: -40deg;  
-}
-
-#trans5-step1{
-    top: 255px;
-    left: 360px;
-    width: 165px;
-    height: 40px; 
-    rotate: -40deg;  
-}
-
-#trans6-step1{
-    top: 270px;
-    left: 380px;
-    width: 165px;
-    height: 40px; 
-    rotate: -40deg;  
-}
-
-#trans7-step1{
-    top: 285px;
-    left: 400px;
-    width: 165px;
-    height: 40px; 
-    rotate: -40deg;  
-}
-
-#trans9-step1, #trans10-step1, #trans11-step1, #trans12-step1, #trans13-step1{
-    width: 160px;
-    height: 30px;
-    top: 190px;
-    left: 570px;
-    rotate: -35deg;
+    height: 50px;
 }
 
 /* ARROWS  */
 
 #arr1-step1{
-    visibility: visible;
-    position: absolute;
-    top: 40px;
-    left: 80px;
-}
-
-#arr2-step1{
-    visibility: visible;
     top: 120px;
     left: 430px;
 }
 
-#arr3-step1{
+#arr2-step1{
     top: 170px;
     left: 700px;
 }
 
-#arr4-step1{
+#arr3-step1{
     top: 200px;
     left: 650px;
 }
 
-#arr5-step1{
+#arr4-step1{
     top: 120px;
-    left: 490px;
+    left: 495px;
 }
 
-#arr6-step1{
+#arr5-step1{
     top: 200px;
     left: 670px;
-}
-
-#arr7-step1{
-    top: 250px;
-    left: 440px;
-}
-
-#arr8-step1{
-    top: 250px;
-    left: 480px;
-}
-
-#arr9-step1{
-    top: 260px;
-    left: 510px;
-}
-
-#arr10-step1{
-    top: 270px;
-    left: 530px;
 }
