@@ -57,17 +57,17 @@
 /* TRANSBOXES  */
 
 #trans1-step1, #trans2-step1, #trans8-step1{
-    top: 80px;
+    top: 70px;
     left: 425px;
     width: 65px;
-    height: 40px;
+    height: 50px;
 }
 
 #trans3-step1{
-    top: 80px;
+    top: 70px;
     left: 485px;
     width: 65px;
-    height: 40px;
+    height: 50px;
 }
 
 #trans4-step1{
@@ -113,7 +113,7 @@
 /* ARROWS  */
 
 #arr1-step1{
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     top: 40px;
     left: 80px;

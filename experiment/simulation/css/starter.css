@@ -13,10 +13,10 @@
 }
 
 #mainPageImgExp1{
-    width: 600px;
-    height: 200px;
-    top: 200px;
-    left: 100px;
+    position: absolute;
+    width: 700px;
+    top: 125px;
+    left: 50px;
 }
 
 .arr-next{
