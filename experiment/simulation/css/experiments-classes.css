@@ -88,6 +88,7 @@
 .exp-transboxes{
     position: absolute;
     visibility: hidden;
+    /* border: 2px solid green; */
 }
 
 /* ARROWS  */

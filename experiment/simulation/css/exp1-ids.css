@@ -73,7 +73,6 @@
 /* ARROWS  */
 
 #arr1-step1{
-    visibility: visible;
     top: 120px;
     left: 430px;
 }
@@ -90,7 +89,7 @@
 
 #arr4-step1{
     top: 120px;
-    left: 490px;
+    left: 495px;
 }
 
 #arr5-step1{
