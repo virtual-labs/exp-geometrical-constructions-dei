@@ -1,0 +1,104 @@
+/* ID FILE IS SPECIFIC TO EXPERMENT 2 ONLY !!  */
+
+/* DropMenus  */
+
+#dropMenu1-step3, #dropMenu2-step3, #dropMenu3-step3, #dropMenu4-step3{
+    top: 120px;
+    left: 425px;
+}
+
+/* PENCILS  */
+
+#pencil1-step3, #pencil2-step3, #pencil3-step3{
+    width: 145px;
+    top: 200px;
+    left: 570px;
+    rotate: -30deg;
+}
+
+#pencil4-step3{
+    left: 575px;
+    top: 170px;
+    width: 155px;
+    rotate: -20deg;
+}
+
+/* COMPASS  */
+
+#compass1-step3, #compass2-step3, #compass3-step3{
+    width: 50px;
+    height: 140px;
+    top: 165px;
+    left: 630px;
+}
+
+/* TRANSBOXES  */
+
+#trans1-step3, #trans4-step3, #trans7-step3, #trans10-step3{
+    top: 70px;
+    left: 425px;
+    width: 65px;
+    height: 50px;
+}
+
+#trans2-step3, #trans5-step3, #trans9-step3{
+    top: 70px;
+    left: 485px;
+    width: 65px;
+    height: 50px;
+}
+
+#trans3-step3{
+    top: 250px;
+    left: 465px;
+    width: 90px;
+    height: 50px;
+}
+
+#trans6-step3{
+    top: 270px;
+    left: 490px;
+    width: 70px;
+    height: 50px;
+}
+
+#trans8-step3, #trans11-step3, #trans12-step3, #trans13-step3,
+#trans14-step3{
+    left: 570px;
+    top: 140px;
+    width: 160px;
+    height: 100px;
+}
+
+/* ARROWS  */
+
+#arr1-step3{
+    top: 120px;
+    left: 430px;
+}
+
+#arr2-step3{
+    top: 200px;
+    left: 660px;
+}
+
+#arr3-step3{
+    top: 120px;
+    left: 495px;
+}
+
+#arr4-step3{
+    top: 265px;
+    left: 550px;
+}
+
+#arr5-step3{
+    top: 290px;
+    left: 550px;
+}
+
+#arr6-step3{
+    top: 170px;
+    left: 670px;
+}
+

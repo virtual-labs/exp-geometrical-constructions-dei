@@ -55,6 +55,7 @@
 
 .dropMenu{
     position: absolute;
+    visibility: hidden;
     width: 70px;
     padding: 5px;
     border-radius: 4px;
@@ -78,11 +79,10 @@
     cursor: pointer;
 }
 
-.next-exp{
-    visibility: hidden;
-    
+.arr-next{
+    left: 680px;
+    top: 525px;
 }
-
 /* TRANSBOXES  */
 
 .exp-transboxes{
