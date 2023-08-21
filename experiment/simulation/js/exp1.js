@@ -45,7 +45,7 @@ const arr4Step3 = document.querySelector("#arr4-step3");
 const arr5Step3 = document.querySelector("#arr5-step3");
 
 // NEXT BUTTONS 
-const arrNext = document.querySelector("#arr-next");
+const arrNext = document.querySelector(".arr-next");
 const nextToFinalPng = document.querySelector("#nextToFinalPng");
 const nextBtnExp1 = document.querySelector("#nextToExpListFromExp1");
 

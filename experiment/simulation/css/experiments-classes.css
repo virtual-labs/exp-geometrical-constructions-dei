@@ -79,17 +79,16 @@
     cursor: pointer;
 }
 
-.next-exp{
-    visibility: hidden;
-    
+.arr-next{
+    left: 680px;
+    top: 525px;
 }
-
 /* TRANSBOXES  */
 
 .exp-transboxes{
     position: absolute;
     visibility: hidden;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* ARROWS  */

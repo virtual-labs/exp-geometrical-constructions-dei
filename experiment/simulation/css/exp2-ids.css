@@ -2,7 +2,7 @@
 
 /* DropMenus  */
 
-#dropMenu1-step3, #dropMenu2-step3, #dropMenu3-step3{
+#dropMenu1-step3, #dropMenu2-step3, #dropMenu3-step3, #dropMenu4-step3{
     top: 120px;
     left: 425px;
 }
@@ -16,9 +16,16 @@
     rotate: -30deg;
 }
 
+#pencil4-step3{
+    left: 575px;
+    top: 170px;
+    width: 155px;
+    rotate: -20deg;
+}
+
 /* COMPASS  */
 
-#compass1-step3, #compass2-step3{
+#compass1-step3, #compass2-step3, #compass3-step3{
     width: 50px;
     height: 140px;
     top: 165px;
@@ -27,7 +34,7 @@
 
 /* TRANSBOXES  */
 
-#trans1-step3, #trans4-step3, #trans7-step3, #trans8-step3{
+#trans1-step3, #trans4-step3, #trans7-step3, #trans10-step3{
     top: 70px;
     left: 425px;
     width: 65px;
@@ -53,6 +60,14 @@
     left: 490px;
     width: 70px;
     height: 50px;
+}
+
+#trans8-step3, #trans11-step3, #trans12-step3, #trans13-step3,
+#trans14-step3{
+    left: 570px;
+    top: 140px;
+    width: 160px;
+    height: 100px;
 }
 
 /* ARROWS  */
@@ -81,3 +96,9 @@
     top: 290px;
     left: 550px;
 }
+
+#arr6-step3{
+    top: 170px;
+    left: 670px;
+}
+
