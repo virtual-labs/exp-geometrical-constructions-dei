@@ -55,6 +55,7 @@
 
 .dropMenu{
     position: absolute;
+    visibility: hidden;
     width: 70px;
     padding: 5px;
     border-radius: 4px;
@@ -88,7 +89,7 @@
 .exp-transboxes{
     position: absolute;
     visibility: hidden;
-    /* border: 2px solid green; */
+    border: 2px solid green;
 }
 
 /* ARROWS  */
