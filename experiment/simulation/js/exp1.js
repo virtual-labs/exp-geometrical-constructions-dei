@@ -153,7 +153,7 @@ comp1Step1.addEventListener("click", (evt)=>{
         arr1Step1.style.visibility = "visible";
         instruction1Step1.innerText = "Again select 3H pencil and join the last arc with point B. Similarly draw parallel lines from rest of the arcs, dividing the line segment AB into 5 equal parts.";
         trans4Step1.style.visibility = "visible";
-    }, 23000);
+    }, 22500);
 });
 
 trans4Step1.addEventListener("click", (evt) => {
