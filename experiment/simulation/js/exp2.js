@@ -219,7 +219,7 @@ comp2Step3.addEventListener("click", (evt) => {
     setTimeout(()=>{
         trans6Step3.style.visibility = "visible";
         arr5Step3.style.visibility = "visible";
-    }, 18500);
+    }, 19500);
 });
 
 trans6Step3.addEventListener("click", (evt) => {
@@ -350,7 +350,7 @@ pencil4Step3.addEventListener("click", (evt)=> {
     setTimeout(()=>{
         trans11Step3.style.visibility = "visible";
         arr6Step3.style.visibility = "visible";
-    }, 6500);
+    }, 7500);
 });
 
 trans11Step3.addEventListener("click", (evt) => {
@@ -406,7 +406,7 @@ trans14Step3.addEventListener("click", (evt) => {
         setTimeout(() => {
             arrNext.style.visibility = "visible";
             nextToFinalPng.style.visibility = "visible";
-        }, 2500);
+        }, 5000);
     }, 6500);
 });
 
