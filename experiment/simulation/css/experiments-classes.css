@@ -51,6 +51,11 @@
     visibility: hidden;
 }
 
+.exp-protector{
+    visibility: hidden;
+    position: absolute;
+}
+
 /* DropMenus  */
 
 .dropMenu{
