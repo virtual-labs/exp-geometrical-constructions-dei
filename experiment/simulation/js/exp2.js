@@ -115,7 +115,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, compass";
+        instruction1Step3.innerText = "Now, select compass";
 
         arr3Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
@@ -125,8 +125,6 @@ pencil1Step3.addEventListener("click", (evt) => {
 trans2Step3.addEventListener("click", (evt) => {
     evt.target.style.visibility = "hidden";
     arr3Step3.style.visibility = "hidden";
-
-    instruction1Step3.innerText = "Now make arcs"
 
     arr2Step3.style.visibility = "visible";
     comp1Step3.style.visibility = "visible";
@@ -140,7 +138,6 @@ comp1Step3.addEventListener("click", (evt) => {
     gif2Step3.style.visibility = "visible";
 
     setTimeout(()=>{
-        instruction1Step3.innerText = "Make circle";
         trans3Step3.style.visibility = "visible";
         arr4Step3.style.visibility = "visible";
     }, 7000);
@@ -179,7 +176,6 @@ dropMenu2Step3.addEventListener("change",(evt)=>{
         evt.target.style.visibility = "hidden";
         pencil2Step3.style.visibility = "visible";
         arr2Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Draw line"
     }else{
         alert("Please select 3H Pencil");
     }
@@ -195,7 +191,7 @@ pencil2Step3.addEventListener("click", (evt) => {
     setTimeout(()=>{
         gif4Step3.style.visibility = "hidden";
         png4Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Now again select compass";
+        instruction1Step3.innerText = "Now, select compass";
         trans5Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
     }, 6000);
@@ -219,7 +215,7 @@ comp2Step3.addEventListener("click", (evt) => {
     setTimeout(()=>{
         trans6Step3.style.visibility = "visible";
         arr5Step3.style.visibility = "visible";
-    }, 18500);
+    }, 19500);
 });
 
 trans6Step3.addEventListener("click", (evt) => {
@@ -232,6 +228,8 @@ trans6Step3.addEventListener("click", (evt) => {
     setTimeout(()=> {
         gif6Step3.style.visibility = "hidden";
         png5Step3.style.visibility = "visible";
+
+        instruction1Step3.innerText = "Now, select 3H pencil"
 
         trans7Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -252,7 +250,6 @@ dropMenu3Step3.addEventListener("change",(evt)=>{
         evt.target.style.visibility = "hidden";
         pencil3Step3.style.visibility = "visible";
         arr2Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Draw parallel lines";
     }else{
         alert("Please select 3H Pencil");
     }
@@ -334,7 +331,6 @@ dropMenu4Step3.addEventListener("change",(evt)=>{
         evt.target.style.visibility = "hidden";
         pencil4Step3.style.visibility = "visible";
         arr6Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Draw parallel lines";
     }else{
         alert("Please select H Pencil");
     }
@@ -350,7 +346,7 @@ pencil4Step3.addEventListener("click", (evt)=> {
     setTimeout(()=>{
         trans11Step3.style.visibility = "visible";
         arr6Step3.style.visibility = "visible";
-    }, 6500);
+    }, 7500);
 });
 
 trans11Step3.addEventListener("click", (evt) => {
@@ -406,7 +402,7 @@ trans14Step3.addEventListener("click", (evt) => {
         setTimeout(() => {
             arrNext.style.visibility = "visible";
             nextToFinalPng.style.visibility = "visible";
-        }, 2500);
+        }, 5000);
     }, 6500);
 });
 
