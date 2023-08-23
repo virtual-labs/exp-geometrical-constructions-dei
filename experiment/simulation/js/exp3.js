@@ -47,6 +47,14 @@ const gif10Step3 = document.querySelector("#gif10-step3");
 const gif11Step3 = document.querySelector("#gif11-step3");
 const gif12Step3 = document.querySelector("#gif12-step3");
 const gif13Step3 = document.querySelector("#gif13-step3");
+const gif14Step3 = document.querySelector("#gif14-step3");
+const gif15Step3 = document.querySelector("#gif15-step3");
+const gif16Step3 = document.querySelector("#gif16-step3");
+const gif17Step3 = document.querySelector("#gif17-step3");
+const gif18Step3 = document.querySelector("#gif18-step3");
+const gif19Step3 = document.querySelector("#gif19-step3");
+const gif20Step3 = document.querySelector("#gif20-step3");
+
 
 // Transboxes
 const trans1Step3 = document.querySelector("#trans1-step3");
