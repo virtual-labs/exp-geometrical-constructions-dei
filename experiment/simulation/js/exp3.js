@@ -2,7 +2,7 @@
 
 // DROPMENUS, PENCILS, COMPASS AND INSTRUCTIONS
 const assemblyBox = document.querySelector("#assembly");
-
+const statementBox = document.querySelector("#exp3-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
@@ -122,7 +122,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select 3H pencil";
+        instruction1Step3.innerText = "Select 3H pencil and extend the line to P such that AB=BP.";
 
         arr1Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
@@ -157,7 +157,7 @@ pencil2Step3.addEventListener("click", (evt) => {
         gif2Step3.style.visibility = "hidden";
         png3Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select campass";
+        instruction1Step3.innerText = "Select the compass and with B as the centre and AP as the radius, construct a semicircle.";
 
         arr3Step3.style.visibility = "visible";
         trans3Step3.style.visibility = "visible";
@@ -182,7 +182,7 @@ comp1Step3.addEventListener("click", (evt) => {
         gif3Step3.style.visibility = "hidden";
         png4Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select protector and draw cuts";
+        instruction1Step3.innerText = "Select the protractor, and mark the points to divide the semicircle into 6 equal parts.";
 
         trans4Step3.style.visibility = "visible";
         arr4Step3.style.visibility = "visible";
@@ -208,7 +208,7 @@ protect1Step3.addEventListener("click", (evt) => {
         gif4Step3.style.visibility = "hidden";
         png5Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select H pencil";
+        instruction1Step3.innerText = "Now, select the H pencil and join the 2nd division on the semicircle with point B.";
         trans5Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
     }, 24000);
@@ -243,7 +243,7 @@ pencil3Step3.addEventListener("click", (evt) => {
         gif5Step3.style.visibility = "hidden";
         png6Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select 3H pencil";
+        instruction1Step3.innerText = "Select 3H pencil and similarly join the 3rd, 4th and 5th divisions with the point B.";
 
         trans6Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -305,7 +305,7 @@ trans8Step3.addEventListener("click", (evt) =>{
         gif8Step3.style.visibility = "hidden";
         png7Step3.style.visibility =  "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Select the compass, with AB as the radius  and starting from the 2nd point, mark off arcs on the line B-3, B-4 and B-5.";
 
         trans9Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
@@ -331,7 +331,7 @@ comp2Step3.addEventListener("click", (evt) => {
         gif9Step3.style.visibility = "hidden";
         png8Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select H pencil";
+        instruction1Step3.innerText = "Now, select H pencil and join all the arcs to obtain the required hexagon.";
 
         trans10Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -413,8 +413,10 @@ nextToFinalPng.addEventListener("click", (evt) => {
     arrNext.style.visibility = "hidden";
     gif13Step3.style.visibility = "hidden";
     assemblyBox.style.visibility = "hidden";
+    statementBox.style.visibility = "hidden";
 
     finalPng.style.visibility = "visible";
+    finalPng.style.top = "80px";
 
     setTimeout(() => {
         nextBtnExp3.style.visibility = "visible";

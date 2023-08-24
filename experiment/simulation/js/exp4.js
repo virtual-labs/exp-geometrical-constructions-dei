@@ -2,7 +2,7 @@
 
 // DROPMENUS, PENCILS, COMPASS AND INSTRUCTIONS
 const assemblyBox = document.querySelector("#assembly");
-
+const statementBox = document.querySelector("#exp4-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
@@ -137,7 +137,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Select the compass and draw arcs from points A and B with AB as the radius.";
 
         arr3Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
@@ -175,7 +175,7 @@ trans3Step3.addEventListener("click", (evt) => {
         gif3Step3.style.visibility = "hidden";
         png3Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, Select H pencil"
+        instruction1Step3.innerText = "Select H pencil and join the point of intersection of both the arcs with points A and B to obtain the triangle."
 
         trans4Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -224,7 +224,7 @@ trans5Step3.addEventListener("click", (evt) => {
         gif5Step3.style.visibility = "hidden";
         png4Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Select the compass and bisect the angle B.";
 
         trans6Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
@@ -263,7 +263,7 @@ trans7Step3.addEventListener("click", (evt) =>{
         gif7Step3.style.visibility = "hidden";
         png5Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select 3H Pencil";
+        instruction1Step3.innerText = "Select 3H pencil and draw the line such that it passes the midpoint on the opposite side of the triangle.";
 
         trans8Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -299,7 +299,7 @@ pencil3Step3.addEventListener("click", (evt) => {
         gif8Step3.style.visibility = "hidden";
         png6Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Select the compass and similarly bisect angle A.";
 
         trans9Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
@@ -337,7 +337,7 @@ trans10Step3.addEventListener("click", (evt) => {
         gif10Step3.style.visibility = "hidden";
         png7Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select 3H pencil";
+        instruction1Step3.innerText = "Select 3H pencil and draw line that passes the midpoint on the opposite side of the triangle. Then, draw a line perpendicular to AB and label their point of intersection as O.";
 
         trans11Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -385,7 +385,7 @@ trans12Step3.addEventListener("click", (evt) => {
         gif12Step3.style.visibility = "hidden";
         png8Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Select the compass and bisect angle CPB.";
 
         trans13Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
@@ -423,7 +423,7 @@ trans14Step3.addEventListener("click", (evt) => {
         gif14Step3.style.visibility = "hidden";
         png9Step3.style.visibility = "visible";
         
-        instruction1Step3.innerText = "Now, select 3H pencil"
+        instruction1Step3.innerText = "Select 3H pencil and join the points P and M. Drop a perpendicular from M on the line PB."
 
         trans15Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -473,7 +473,7 @@ trans16Step3.addEventListener("click", (evt) => {
         gif16Step3.style.visibility = "hidden";
         png11Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Draw another circle with O as the centre and OM as the radius. Now, draw circles with MV as the radius, touching the two sides of the triangle and label their centres as L and M.";
 
         trans17Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
@@ -535,8 +535,10 @@ nextToFinalPng.addEventListener("click", (evt) => {
     arrNext.style.visibility = "hidden";
     gif20Step3.style.visibility = "hidden";
     assemblyBox.style.visibility = "hidden";
+    statementBox.style.visibility = "hidden";
 
     finalPng.style.visibility = "visible";
+    finalPng.style.top = "80px";
 
     setTimeout(() => {
         nextBtnExp3.style.visibility = "visible";
