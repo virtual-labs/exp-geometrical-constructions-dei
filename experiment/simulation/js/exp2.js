@@ -2,7 +2,7 @@
 
 // DROPMENUS, PENCILS, COMPASS AND INSTRUCTIONS
 const assemblyBox = document.querySelector("#assembly");
-
+const statementBox = document.querySelector("#exp2-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
@@ -115,7 +115,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Now select compass and construct the circle.";
 
         arr3Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
@@ -156,7 +156,7 @@ trans3Step3.addEventListener("click", (evt)=>{
         gif3Step3.style.visibility = "hidden";
         png3Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, Select 3H Pencil"
+        instruction1Step3.innerText = "Select 3H pencil and from point A draw a line at any suitable angle."
         arr1Step3.style.visibility = "visible";
         trans4Step3.style.visibility = "visible";
     }, 7000);
@@ -191,7 +191,7 @@ pencil2Step3.addEventListener("click", (evt) => {
     setTimeout(()=>{
         gif4Step3.style.visibility = "hidden";
         png4Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Now, select compass";
+        instruction1Step3.innerText = "Select compass and set it to a certain length. Starting from point A, mark off equidistant arcs on the line. Then, mark off arcs from points A and B with AB as the radius.";
         trans5Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
     }, 6000);
@@ -229,7 +229,7 @@ trans6Step3.addEventListener("click", (evt) => {
         gif6Step3.style.visibility = "hidden";
         png5Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now, select 3H pencil"
+        instruction1Step3.innerText = "Now, Select 3H pencil and join the last arc with point B. Similarly draw parallel lines from rest of the arcs dividing the line segment AB into equal number of parts."
 
         trans7Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
@@ -287,6 +287,8 @@ trans8Step3.addEventListener("click", (evt)=> {
         gif9Step3.style.visibility = "hidden";
         png7Step3.style.visibility = "visible";
 
+        instruction1Step3.innerText = "Select the compass and starting from point A mark off arcs on the circle with the length AD.";
+
         trans9Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
     }, 10000);
@@ -313,7 +315,7 @@ comp3Step3.addEventListener("click", (evt) => {
         png8Step3.style.visibility = "visible";
         trans10Step3.style.visibility = "visible";
         arr1Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Now,select H pencil";
+        instruction1Step3.innerText = "Now, select H pencil and join all the arcs marked on the circle to obtain the pentagon inscribed in a circle.";
     }, 19000);
 });
 
@@ -411,8 +413,10 @@ nextToFinalPng.addEventListener("click", (evt)=>{
     arrNext.style.visibility = "hidden";
     gif16Step3.style.visibility = "hidden";
     assemblyBox.style.visibility = "hidden";
-    
+    statementBox.style.visibility = "hidden";
+
     finalPng.style.visibility = "visible";
+    finalPng.style.top = "80px";
 
     setTimeout(()=>{
         nextBtnExp2.style.visibility = "visible";
