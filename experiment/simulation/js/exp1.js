@@ -2,7 +2,7 @@
 
 // DROPMENUS, PENCILS, COMPASS AND INSTRUCTIONS
 const assemblyBox = document.querySelector("#assembly");
-
+const statementBox = document.querySelector("#exp1-statement");
 const instruction1Step3 = document.querySelector("#instructions-step3");
 
 const comp1Step3 = document.querySelector("#compass1-step3");
@@ -52,6 +52,7 @@ const nextBtnExp1 = document.querySelector("#nextToExpListFromExp1");
 
 
 // once dom loaded then trans1Step3 will get activated.
+
 addEventListener("DOMContentLoaded", () =>{
     trans1Step3.style.visibility = "visible";
     arr1Step3.style.visibility = "visible";
@@ -202,7 +203,10 @@ nextToFinalPng.addEventListener("click", (evt) => {
     arrNext.style.visibility = "hidden";
     gif6Step3.style.visibility = "hidden";
     assemblyBox.style.visibility = "hidden";
+    statementBox.style.visibility = "hidden";
+
     finalPng.style.visibility = "visible";
+    finalPng.style.top = "80px";
 
     setTimeout(()=> {
         nextBtnExp1.style.visibility = "visible";
