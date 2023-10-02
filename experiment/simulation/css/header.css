@@ -9,17 +9,19 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    height: 75px;
 }
 
 .header img{
-    width: 100px;
+    width: 85px;
     height: auto;
 }
 
 /* style the navigation menu  */
 
 nav{
-    background-color: lightgray;
+    background-color: #ff6600;
+    height: 8px;
     /* padding: 7px; */
 }
 nav ul{
