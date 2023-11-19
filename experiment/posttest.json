@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. In how many parts shall the semi circle be divided while constructing a regular hexagon?",
+      "question": "In how many parts shall the semi circle be divided while constructing a regular hexagon?",
       "answers": {
         "a": "Seven",
         "b": "Five",
@@ -16,7 +16,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "2. While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
+      "question": "While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
       "answers": {
         "a": "6",
         "b": "5"
@@ -28,7 +28,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "3. The bisection of angle is important while inscribing a circle in a triangle.",
+      "question": "The bisection of angle is important while inscribing a circle in a triangle.",
       "answers": {
         "a": "True",
         "b": "False"
@@ -40,7 +40,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. The radii of the compass can be altered in between while dividing a line segment",
+      "question": "The radii of the compass can be altered in between while dividing a line segment",
       "answers": {
         "a": "True",
         "b": "False"
@@ -52,7 +52,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "5. Polygons can also be constructed by using set squares.",
+      "question": "Polygons can also be constructed by using set squares.",
       "answers": {
         "a": "Yes",
         "b": "No"
@@ -64,7 +64,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "6. What is the ratio of length of diagonal to the length of a side in a regular pentagon?",
+      "question": "What is the ratio of length of diagonal to the length of a side in a regular pentagon?",
       "answers": {
         "a": "1:1",
         "b": "4:1",
@@ -78,7 +78,7 @@
       "difficulty": "advanced"
     },
     {
-      "question": "7. What is the relationship between the centroid, circumcentre and the incentre of an equilateral triangle?.",
+      "question": "What is the relationship between the centroid, circumcentre and the incentre of an equilateral triangle?.",
       "answers": {
         "a": "They coincide at the same point.",
         "b": "They are collinear",
