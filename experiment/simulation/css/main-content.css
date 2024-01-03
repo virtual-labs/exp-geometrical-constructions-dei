@@ -31,13 +31,13 @@ main{
 
 .instruction-main{
     position: absolute;
-    display: inline-block;
-    top: 30px;
+    /* display: inline-block; */
+    top: 15px;
 }
 
 .instruction{
     position: absolute;
-    display: inline-block;
+    /* display: inline-block; */
     top: 30px;
 }
 
@@ -50,20 +50,20 @@ main{
     position: absolute;
     display: inline-block;
     text-align: justify;
-    top: 30px;
-    left: 100px;
+    top: 40px;
+    left: 30px;
     width: 690px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .instruments{
     position: absolute;
     display: inline-block;
     text-align: justify;
-    top: 100px;
-    left: 165px;
+    top: 130px;
+    left: 30px;
     width: 690px;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .content{
