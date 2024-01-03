@@ -35,6 +35,12 @@ const nextToExps = document.querySelector("#nextBtnOfStarter");
 
 // ############################################################################
 
+addEventListener("DOMContentLoaded", (evt) => {
+    setTimeout(() => {
+        nextToSetup1.style.visibility = "visible";
+    }, 3000);
+})
+
 // SETUP 1
 nextToSetup1.addEventListener("click", () => {
     mainPage.style.visibility = "hidden";
