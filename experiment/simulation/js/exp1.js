@@ -96,7 +96,7 @@ pencil1Step3.addEventListener("click", (evt) => {
 
         arr1Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
-    }, 10000)
+    }, 12750)
 });
 
 trans2Step3.addEventListener("click", ()=> {

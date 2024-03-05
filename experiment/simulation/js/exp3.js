@@ -161,7 +161,7 @@ pencil2Step3.addEventListener("click", (evt) => {
 
         arr3Step3.style.visibility = "visible";
         trans3Step3.style.visibility = "visible";
-    }, 10000);
+    }, 13000);
 });
 
 trans3Step3.addEventListener("click",(evt) => {
@@ -186,7 +186,7 @@ comp1Step3.addEventListener("click", (evt) => {
 
         trans4Step3.style.visibility = "visible";
         arr4Step3.style.visibility = "visible";
-    }, 5000);
+    }, 8000);
 });
 
 trans4Step3.addEventListener("click", (evt) => {
