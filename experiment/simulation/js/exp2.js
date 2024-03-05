@@ -23,6 +23,7 @@ const dropMenu4Step3 = document.querySelector("#dropMenu4-step3");
 // Images
 const png1Step3 = document.querySelector("#png1-step3");
 const png2Step3 = document.querySelector("#png2-step3");
+const png33Step3 = document.querySelector("#png33-step3");
 const png3Step3 = document.querySelector("#png3-step3");
 const png4Step3 = document.querySelector("#png4-step3");
 const png5Step3 = document.querySelector("#png5-step3");
@@ -115,7 +116,7 @@ pencil1Step3.addEventListener("click", (evt) => {
         gif1Step3.style.visibility = "hidden";
         png2Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Now select compass and construct the circle.";
+        instruction1Step3.innerText = "Now select compass and construct the circle of 75 mm radius.";
 
         arr3Step3.style.visibility = "visible";
         trans2Step3.style.visibility = "visible";
@@ -138,9 +139,12 @@ comp1Step3.addEventListener("click", (evt) => {
     gif2Step3.style.visibility = "visible";
 
     setTimeout(()=>{
+        gif2Step3.style.visibility = "hidden";
+        png33Step3.style.visibility = "visible";
+
         trans3Step3.style.visibility = "visible";
         arr4Step3.style.visibility = "visible";
-    }, 7000);
+    }, 9800);
 });
 
 // comp1Step3.setAttribute("id", "comp2Step3");
@@ -156,7 +160,7 @@ trans3Step3.addEventListener("click", (evt)=>{
         gif3Step3.style.visibility = "hidden";
         png3Step3.style.visibility = "visible";
 
-        instruction1Step3.innerText = "Select 3H pencil and from point A draw a line at any suitable angle."
+        instruction1Step3.innerText = "Select 3H pencil and from point A, draw a line at any suitable angle."
         arr1Step3.style.visibility = "visible";
         trans4Step3.style.visibility = "visible";
     }, 7000);
