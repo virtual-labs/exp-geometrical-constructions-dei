@@ -1,0 +1,131 @@
+/* ID FILE IS SPECIFIC TO EXPERMENT 4 ONLY !!  */
+body {
+    font-family: "Arial", sans-serif;
+}
+/* DropMenus  */
+
+#dropMenu1-step3, #dropMenu2-step3, #dropMenu3-step3, #dropMenu4-step3, #dropMenu5-step3, #dropMenu6-step3{
+    top: 120px;
+    left: 425px;
+}
+
+/* PENCILS  */
+
+#pencil1-step3, #pencil2-step3, #pencil3-step3{
+    width: 145px;
+    top: 200px;
+    left: 570px;
+    rotate: -30deg;
+}
+
+#pencil4-step3, #pencil5-step3{
+    width: 155px;
+    top: 186px;
+    left: 525px;
+    rotate: -35deg;
+}
+
+/* COMPASS  */
+
+#compass1-step3, #compass2-step3, #compass3-step3, #compass4-step3, #compass5-step3{
+    width: 50px;
+    height: 140px;
+    top: 165px;
+    left: 630px;
+}
+
+/* TRANSBOXES  */
+
+#trans1-step3, #trans4-step3, #trans8-step3, #trans11-step3, #trans15-step3, #trans-step3{
+    top: 70px;
+    left: 425px;
+    width: 65px;
+    height: 50px;
+}
+
+#trans2-step3, #trans6-step3, #trans9-step3, #trans13-step3, #trans17-step3{
+    top: 70px;
+    left: 485px;
+    width: 65px;
+    height: 50px;
+}
+
+#trans3-step3{
+    top: 210px;
+    left: 365px;
+    width: 50px;
+    height: 60px;
+}
+
+#trans5-step3{
+    width: 140px;
+    height: 100px;
+    top: 150px;
+    left: 585px;
+}
+
+#trans7-step3{
+    width: 60px;
+    height: 40px;
+    top: 265px;
+    left: 500px;
+}
+
+#trans10-step3, #trans14-step3{
+    width: 60px;
+    height: 40px;
+    top: 265px;
+    left: 220px;
+}
+
+#trans12-step3, #trans16-step3{
+    width: 130px;
+    height: 100px;
+    top: 140px;
+    left: 530px;
+}
+
+#trans14-step3, #trans18-step3, #trans19-step3{
+    width: 150px;
+    height: 70px;
+    top: 280px;
+    left: 240px;
+}
+
+
+/* ARROWS  */
+
+#arr1-step3{
+    top: 120px;
+    left: 430px;
+}
+
+#arr2-step3{
+    top: 200px;
+    left: 660px;
+}
+
+#arr3-step3{
+    top: 120px;
+    left: 495px;
+}
+
+#arr4-step3{
+    top: 230px;
+    left: 415px;
+}
+
+#arr5-step3{
+    top: 275px;
+    left: 550px;
+}
+
+#arr6-step3, #arr8-step3{
+    top: 300px;
+    left: 220px;
+}
+
+#arr7-step3{
+    top: 190px;
+    left: 620px;
+}
