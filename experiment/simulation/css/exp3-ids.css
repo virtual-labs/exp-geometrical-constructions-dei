@@ -1,5 +1,7 @@
 /* ID FILE IS SPECIFIC TO EXPERMENT 3 ONLY !!  */
-
+body {
+    font-family: "Arial", sans-serif;
+}
 /* DropMenus  */
 
 #dropMenu1-step3, #dropMenu2-step3, #dropMenu3-step3, #dropMenu4-step3, #dropMenu5-step3{

@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    font-family: "Arial", sans-serif;
+}
 main{
     display: flex;
     align-items: center;
