@@ -6,6 +6,10 @@
     visibility: visible;
 }
 
+body {
+    font-family: "Arial", sans-serif;
+}
+
 /* DropMenus  */
 
 #dropMenu1-step3, #dropMenu2-step3, #dropMenu3-step3{
