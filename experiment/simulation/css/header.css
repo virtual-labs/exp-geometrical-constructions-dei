@@ -1,5 +1,9 @@
 /* style the header container  */
 
+body {
+    font-family: "Arial", sans-serif;
+}
+
 .header{
     margin: 0px;
 }
