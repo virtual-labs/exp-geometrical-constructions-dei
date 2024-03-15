@@ -3,7 +3,7 @@
 <b>Discipline | <b> Mechanical Engineering.
 :--|:--|
 <b> Lab | <b> Engineering Graphics Lab.
-<b> Experiment| <b> 3. Geometrical Contructions.
+<b> Experiment| <b> Geometrical Constructions
 
 ### About the Experiment 
 Geometrical construction is one of the main parts of engineering drawing which involves drawing shapes and figures with the help of a ruler and a compass. It consists of drawing and bisecting lines, creating angles, constructing different types of polygons and a lot more.
@@ -20,5 +20,6 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | <b> Varun Pal Singh | Faculty of Engineering | Civil Engineering | Dayalbagh Educational Institute | <b> singhvarun928@gmail.com
-2 | <b> Ana Rehman | Faculty of Engineering  | Civil Engineering | Dayalbagh Educational Institute | <b> anarehmanana@gmail.com
+1 | <b> Varun Pal Singh | Student | Civil Engineering | Dayalbagh Educational Institute | <b> singhvarun928@gmail.com
+2 | <b> Ana Rehman | Student  | Civil Engineering | Dayalbagh Educational Institute | <b> anarehmanana@gmail.com
+3 | <b> Shyamendra Singh | Student  | Agricultural Engineering | Dayalbagh Educational Institute | <b> shyamendra.me@gmail.com
