@@ -2,6 +2,10 @@
 
 /* TEXT  */
 
+body {
+    font-family: "Arial", sans-serif;
+}
+
 .step{
     display: inline-block;
 }
