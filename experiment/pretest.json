@@ -2,38 +2,128 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A normal is the radius which is drawn parallel to the tangent",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "False"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the process of dividing a line into three equal parts known as?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Subdivision",
+        "b": "Bisection",
+        "c": "Trisection",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "c": "Trisection"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "How much does each angle of octagon measure?",
+      "answers": {
+        "a": "90°",
+        "b": "120°",
+        "c": "75°",
+        "d": "108°"
+      },
+      "explanations": {
+        "d": "108°"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following involves inscribing a circle inside a triangle such that it touches all the sides of the triangle?",
+      "answers": {
+        "a": "Circumcentre construction",
+        "b": "In centre construction",
+        "c": "Excentre construction",
+        "d": "Medial triangle construction"
+      },
+      "explanations": {
+        "b": "In centre construction"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Polygons with equal sides and equal angles are known as _____",
+      "answers": {
+        "a": "Uniform polygons",
+        "b": "True polygons",
+        "c": "Regular polygons",
+        "d": "Real polygons"
+      },
+      "explanations": {
+        "c": "Regular polygons"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In a regular hexagon, the interior angle and the exterior angle at each vertex are ______ to each other",
+      "answers": {
+        "a": "Complementary",
+        "b": "Equal",
+        "c": "Supplementary",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "c": "Supplementary"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following theorem is used to divide a line segment into a number of equal parts?",
+      "answers": {
+        "a": "Pythagoras' theorem ",
+        "b": "Right-angle theorem",
+        "c": "Thales theorem",
+        "d": "Congruence theorem"
+      },
+      "explanations": {
+        "c": "Thales theorem"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "How many diagonals can be constructed in a regular hexagon?",
+      "answers": {
+        "a": "12",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "explanations": {
+        "a": "12"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following geometry consists of N number of circles with a common centre?",
+      "answers": {
+        "a": "Concentric circle",
+        "b": "Circumscribed circle",
+        "c": "Inscribed circle",
+        "d": "Sphere"
+      },
+      "explanations": {
+        "a": "Concentric circle"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
