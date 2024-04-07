@@ -1,0 +1,31 @@
+
+/home/runner/work/exp-geometrical-constructions-dei/exp-geometrical-constructions-dei/experiment/simulation/js/exp1.js
+  71:43  warning  'evt' is defined but never used  no-unused-vars
+  91:17  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-geometrical-constructions-dei/exp-geometrical-constructions-dei/experiment/simulation/js/exp2.js
+  115:17  warning  'evt' is defined but never used  no-unused-vars
+  431:41  warning  'evt' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-geometrical-constructions-dei/exp-geometrical-constructions-dei/experiment/simulation/js/exp3.js
+   50:7   warning  'gif14Step3' is assigned a value but never used  no-unused-vars
+   51:7   warning  'gif15Step3' is assigned a value but never used  no-unused-vars
+   52:7   warning  'gif16Step3' is assigned a value but never used  no-unused-vars
+   53:7   warning  'gif17Step3' is assigned a value but never used  no-unused-vars
+   54:7   warning  'gif18Step3' is assigned a value but never used  no-unused-vars
+   55:7   warning  'gif19Step3' is assigned a value but never used  no-unused-vars
+   56:7   warning  'gif20Step3' is assigned a value but never used  no-unused-vars
+  121:17  warning  'evt' is defined but never used                  no-unused-vars
+  156:17  warning  'evt' is defined but never used                  no-unused-vars
+  427:40  warning  'evt' is defined but never used                  no-unused-vars
+
+/home/runner/work/exp-geometrical-constructions-dei/exp-geometrical-constructions-dei/experiment/simulation/js/exp4.js
+   28:7   warning  'dropMenu6Step3' is assigned a value but never used  no-unused-vars
+  136:17  warning  'evt' is defined but never used                      no-unused-vars
+  549:40  warning  'evt' is defined but never used                      no-unused-vars
+
+/home/runner/work/exp-geometrical-constructions-dei/exp-geometrical-constructions-dei/experiment/simulation/js/starter.js
+  38:39  warning  'evt' is defined but never used  no-unused-vars
+
+✖ 18 problems (0 errors, 18 warnings)
+
