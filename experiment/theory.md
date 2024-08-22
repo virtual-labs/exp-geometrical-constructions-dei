@@ -2,7 +2,7 @@
 
 Geometrical construction is one of the main parts of engineering drawing which involves drawing shapes and figures with the help of a ruler and a compass. Geometrical construction is mainly based upon the plane geometry. It consists of drawing and bisecting lines, creating angles, constructing different types of polygons etc. 
 In fields like engineering and architecture, constructions ensure precise representation of shapes, angles, and dimensions. This accuracy is essential for creating functional and structurally sound designs. Geometrical constructions assist in establishing symmetry and centrelines, guiding the positioning of features and ensuring balance in designs.
-These are the following problems/task to be done in the geometrical construction:
+
 Geometrical construction mainly consists the following problems:
 
 ****•	Bisecting a line:**** Dividing a line segment into two equal parts by drawing a perpendicular bisector through its midpoint.
