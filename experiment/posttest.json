@@ -69,10 +69,10 @@
         "a": "1:1",
         "b": "4:1",
         "c": "1:2",
-        "d": "2:1"
+        "d": "1.618:1"
       },
       "explanations": {
-        "d": "2:1"
+        "d": "1.618:1"
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
