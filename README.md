@@ -23,3 +23,4 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 1 | <b> Varun Pal Singh | Student | Civil Engineering | Dayalbagh Educational Institute | <b> singhvarun928@gmail.com
 2 | <b> Ana Rehman | Student  | Civil Engineering | Dayalbagh Educational Institute | <b> anarehmanana@gmail.com
 3 | <b> Shyamendra Singh | Student  | Agricultural Engineering | Dayalbagh Educational Institute | <b> shyamendra.me@gmail.com
+4 | Vivank Tyagi | Student | Electrical Engineering | Dayalbagh Educational Institute | tyagivivank1@gmail.com
