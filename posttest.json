@@ -1,0 +1,95 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In how many parts shall the semi circle be divided while constructing a regular hexagon?",
+      "answers": {
+        "a": "Seven",
+        "b": "Five",
+        "c": "Six",
+        "d": "Four"
+      },
+      "explanations": {
+        "c": "Six"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
+      "answers": {
+        "a": "6",
+        "b": "5"
+      },
+      "explanations": {
+        "b": "5"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The bisection of angle is important while inscribing a circle in a triangle.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "True"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The radii of the compass can be altered in between while dividing a line segment",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Polygons can also be constructed by using set squares.",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "explanations": {
+        "a": "Yes"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the ratio of length of diagonal to the length of a side in a regular pentagon?",
+      "answers": {
+        "a": "1:1",
+        "b": "4:1",
+        "c": "1:2",
+        "d": "1.618:1"
+      },
+      "explanations": {
+        "d": "1.618:1"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the relationship between the centroid, circumcentre and the incentre of an equilateral triangle?.",
+      "answers": {
+        "a": "They coincide at the same point.",
+        "b": "They are collinear",
+        "c": "Both of the above",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "They coincide at the same point."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}

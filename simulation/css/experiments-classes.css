@@ -1,0 +1,110 @@
+/* EXPERIMENTS-CLASS FILE IS COMMON TO ALL THE EXPERIMENTS CLASSES STYLE  */
+
+/* TEXT  */
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.step{
+    display: inline-block;
+}
+
+.step-number{
+    background-color: rgb(20, 117, 228);
+    color: white;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+
+.intructions{
+    position: absolute;
+    display: inline;
+    left: 90px;
+    width: 700px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* IMAGES  */
+
+.assembly{
+    visibility: visible;
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    top: 70px;
+    left: 170px;
+}
+
+.exp-image-section, .exp-image-section-gifs{
+    visibility: hidden;
+    position: absolute;
+    width: 700px;
+    top: 125px;
+    left: 50px;
+}
+
+.exp-pencil{
+    position: absolute;
+    visibility: hidden;
+}
+
+.exp-compass{
+    position: absolute;
+    visibility: hidden;
+}
+
+.exp-protector{
+    visibility: hidden;
+    position: absolute;
+}
+
+/* DropMenus  */
+
+.dropMenu{
+    position: absolute;
+    visibility: hidden;
+    width: 70px;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* BUTTONS  */
+
+/* .back-exp, */
+.next-exp{
+    visibility: hidden;
+    position: absolute;
+    left: 730px;
+    top: 523px;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(20, 117, 228);
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.arr-next{
+    left: 680px;
+    top: 525px;
+}
+/* TRANSBOXES  */
+
+.exp-transboxes{
+    position: absolute;
+    visibility: hidden;
+    /* border: 2px solid green; */
+}
+
+/* ARROWS  */
+
+.exp-arrows{
+    position: absolute;
+    visibility: hidden;
+    width: 50px;
+}
+
