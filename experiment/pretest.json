@@ -33,10 +33,10 @@
         "a": "90°",
         "b": "120°",
         "c": "75°",
-        "d": "108°"
+        "d": "135°"
       },
       "explanations": {
-        "d": "108°"
+        "d": "135°"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -100,13 +100,13 @@
     {
       "question": "How many diagonals can be constructed in a regular hexagon?",
       "answers": {
-        "a": "12",
+        "a": "9",
         "b": "6",
         "c": "8",
         "d": "10"
       },
       "explanations": {
-        "a": "12"
+        "a": "9"
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
