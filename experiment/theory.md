@@ -3,43 +3,50 @@
 Geometrical construction is one of the main parts of engineering drawing which involves drawing shapes and figures with the help of a ruler and a compass. Geometrical construction is mainly based upon the plane geometry. It consists of drawing and bisecting lines, creating angles, constructing different types of polygons etc. 
 In fields like engineering and architecture, constructions ensure precise representation of shapes, angles, and dimensions. This accuracy is essential for creating functional and structurally sound designs. Geometrical constructions assist in establishing symmetry and centrelines, guiding the positioning of features and ensuring balance in designs.
 
-### Interior Angle of a Regular Polygon
+# 📐 Polygon Geometry Formulas
 
-**Formula:**  
-\[
-\text{Interior Angle} = \left( \frac{2N - 4}{N} \right) \times 90
-\]
+## 🔹 Interior Angle of a Regular Polygon
 
-Where:  
-\( N \) = Number of sides
+**Formula:**
+
+Interior Angle = ((2 × N - 4) ÷ N) × 90
+
+**Where:**
+
+- N = Number of sides
 
 ---
 
-### Number of Diagonals in a Polygon
+## 🔹 Number of Diagonals in a Polygon
 
-**Formula:**  
-\[
-\text{Number of Diagonals} = \frac{N(N - 3)}{2}
-\]
+**Formula:**
 
-Where:  
-\( N \) = Number of sides
+Number of Diagonals = (N × (N - 3)) ÷ 2
 
-### Ratio of Diagonal Length to Side Length in a Regular Polygon
+**Where:**
 
-**Formula:**  
-\[
-\text{Diagonal Length} = \left( \frac{1 + \sqrt{N}}{2} \right) \times a
-\]
+- N = Number of sides
 
-Where:  
-\( N \) = Number of sides  
-\( a \) = Side length
+---
 
-**Ratio of Diagonal Length to Side Length:**  
-\[
-\frac{\text{Diagonal Length}}{a} = \left( \frac{1 + \sqrt{N}}{2} \right)
-\]
+## 🔹 Diagonal Length in a Regular Polygon
+
+**Formula:**
+
+Diagonal Length = ((1 + √N) ÷ 2) × a
+
+**Where:**
+
+- N = Number of sides  
+- a = Side length
+
+---
+
+## 🔹 Ratio of Diagonal Length to Side Length
+
+**Formula:**
+
+Diagonal Length ÷ a = (1 + √N) ÷ 2
 
 
 Geometrical construction mainly consists the following problems:
