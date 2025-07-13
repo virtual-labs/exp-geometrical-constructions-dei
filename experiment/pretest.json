@@ -7,10 +7,8 @@
         "a": "True",
         "b": "False"
       },
-      "explanations": {
-        "b": "False"
-      },
       "correctAnswer": "b",
+      "explanation": "A normal is perpendicular—not parallel—to the tangent at the point of contact.",
       "difficulty": "beginner"
     },
     {
@@ -21,10 +19,8 @@
         "c": "Trisection",
         "d": "None of the above"
       },
-      "explanations": {
-        "c": "Trisection"
-      },
       "correctAnswer": "c",
+      "explanation": "Dividing a line into three equal parts is called trisection.",
       "difficulty": "beginner"
     },
     {
@@ -35,10 +31,8 @@
         "c": "75°",
         "d": "135°"
       },
-      "explanations": {
-        "d": "135°"
-      },
       "correctAnswer": "d",
+      "explanation": "Each interior angle of a regular octagon measures 135°.",
       "difficulty": "beginner"
     },
     {
@@ -49,10 +43,8 @@
         "c": "Excentre construction",
         "d": "Medial triangle construction"
       },
-      "explanations": {
-        "b": "In centre construction"
-      },
       "correctAnswer": "b",
+      "explanation": "The incenter is the point from which a circle can be inscribed to touch all sides of a triangle.",
       "difficulty": "intermediate"
     },
     {
@@ -63,10 +55,8 @@
         "c": "Regular polygons",
         "d": "Real polygons"
       },
-      "explanations": {
-        "c": "Regular polygons"
-      },
       "correctAnswer": "c",
+      "explanation": "Regular polygons have all sides and angles equal.",
       "difficulty": "intermediate"
     },
     {
@@ -77,10 +67,8 @@
         "c": "Supplementary",
         "d": "None of the above"
       },
-      "explanations": {
-        "c": "Supplementary"
-      },
       "correctAnswer": "c",
+      "explanation": "Interior and exterior angles of a polygon are supplementary (sum = 180°).",
       "difficulty": "intermediate"
     },
     {
@@ -91,10 +79,8 @@
         "c": "Thales theorem",
         "d": "Congruence theorem"
       },
-      "explanations": {
-        "c": "Thales theorem"
-      },
       "correctAnswer": "c",
+      "explanation": "Thales' theorem helps in dividing a line segment into equal parts using parallel lines.",
       "difficulty": "advanced"
     },
     {
@@ -105,10 +91,8 @@
         "c": "8",
         "d": "10"
       },
-      "explanations": {
-        "a": "9"
-      },
       "correctAnswer": "a",
+      "explanation": "A regular hexagon has 9 diagonals, calculated using n(n-3)/2 formula.",
       "difficulty": "advanced"
     },
     {
@@ -119,10 +103,8 @@
         "c": "Inscribed circle",
         "d": "Sphere"
       },
-      "explanations": {
-        "a": "Concentric circle"
-      },
       "correctAnswer": "a",
+      "explanation": "Concentric circles are multiple circles with different radii but the same center.",
       "difficulty": "advanced"
     }
   ]
