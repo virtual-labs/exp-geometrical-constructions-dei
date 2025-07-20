@@ -3,50 +3,28 @@
 Geometrical construction is one of the main parts of engineering drawing which involves drawing shapes and figures with the help of a ruler and a compass. Geometrical construction is mainly based upon the plane geometry. It consists of drawing and bisecting lines, creating angles, constructing different types of polygons etc. 
 In fields like engineering and architecture, constructions ensure precise representation of shapes, angles, and dimensions. This accuracy is essential for creating functional and structurally sound designs. Geometrical constructions assist in establishing symmetry and centrelines, guiding the positioning of features and ensuring balance in designs.
 
-# 📐 Polygon Geometry Formulas
+**Polygon Geometry Formulas**
 
-## 🔹 Interior Angle of a Regular Polygon
+**Interior Angle of a Regular Polygon**  
+The interior angle of a regular polygon is calculated using the formula:  
+*Interior Angle = ((2 × N - 4) ÷ N) × 90* 
+Where N is the number of sides.
 
-**Formula:**
+**Number of Diagonals in a Polygon**  
+The number of diagonals in a polygon is given by:  
+*Number of Diagonals = (N × (N - 3)) ÷ 2*  
+Where N is the number of sides.
 
-Interior Angle = ((2 × N - 4) ÷ N) × 90
+**Diagonal Length in a Regular Polygon**  
+To calculate the length of a diagonal in a regular polygon:  
+*Diagonal Length = ((1 + √N) ÷ 2) × a*  
+Where N is the number of sides and a is the side length.
 
-**Where:**
+**Ratio of Diagonal Length to Side Length**  
+The ratio of the diagonal length to the side length is expressed as:  
+*Diagonal Length ÷ a = (1 + √N) ÷ 2*
 
-- N = Number of sides
 
----
-
-## 🔹 Number of Diagonals in a Polygon
-
-**Formula:**
-
-Number of Diagonals = (N × (N - 3)) ÷ 2
-
-**Where:**
-
-- N = Number of sides
-
----
-
-## 🔹 Diagonal Length in a Regular Polygon
-
-**Formula:**
-
-Diagonal Length = ((1 + √N) ÷ 2) × a
-
-**Where:**
-
-- N = Number of sides  
-- a = Side length
-
----
-
-## 🔹 Ratio of Diagonal Length to Side Length
-
-**Formula:**
-
-Diagonal Length ÷ a = (1 + √N) ÷ 2
 
 
 Geometrical construction mainly consists the following problems:
