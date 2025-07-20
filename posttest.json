@@ -1,0 +1,97 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In how many parts shall the semi circle be divided while constructing a regular hexagon?",
+      "answers": {
+        "a": "Seven",
+        "b": "Five",
+        "c": "Six",
+        "d": "Four"
+      },
+      "explanations": {
+        "c": "A semicircle is divided into six equal parts to mark the vertices of a regular hexagon. Each division represents 30° (180°/6), which corresponds to the central angle between adjacent vertices of the hexagon when inscribed in a circle."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "While inscribing a regular pentagon inside a circle, the diameter should be divided into _____ equal parts.",
+      "answers": {
+        "a": "6",
+        "b": "5",
+        "c": "4",
+        "d": "3"
+      },
+      "explanations": {
+        "b": "For inscribing a regular pentagon inside a circle, the circumference is conceptually divided into 5 equal parts, each representing 72° (360°/5). Some construction methods involve dividing the diameter into 5 equal parts as a reference for locating the pentagon's vertices."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The bisection of angle is important while inscribing a circle in a triangle.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "This statement is true. Angle bisection is essential for inscribing a circle in a triangle because the incenter (center of the inscribed circle) is located at the intersection point of all three angle bisectors. This point is equidistant from all three sides of the triangle."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The radii of the compass can be altered in between while dividing a line segment",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "b": "This statement is false. To maintain accuracy and ensure equal divisions, the compass radius must remain constant throughout the entire process of dividing a line segment. Altering the radius would result in unequal divisions and compromise the precision of the construction."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Polygons can also be constructed by using set squares.",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "explanations": {
+        "a": "Yes, polygons can be constructed using set squares. Set squares provide fixed angles (30°, 45°, 60°, 90°) that are useful for constructing regular polygons like squares, equilateral triangles, and regular hexagons by combining these standard angles."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the ratio of length of diagonal to the length of a side in a regular pentagon?",
+      "answers": {
+        "a": "1:1",
+        "b": "4:1",
+        "c": "1:2",
+        "d": "1.618:1"
+      },
+      "explanations": {
+        "d": "In a regular pentagon, the ratio of diagonal length to side length equals the golden ratio φ (phi) ≈ 1.618:1. This mathematical constant appears frequently in pentagon geometry and is calculated as (1 + √5)/2, demonstrating the pentagon's unique geometric properties."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the relationship between the centroid, circumcentre and the incentre of an equilateral triangle?",
+      "answers": {
+        "a": "They coincide at the same point",
+        "b": "They are collinear",
+        "c": "Both of the above",
+        "d": "They are distinct points"
+      },
+      "explanations": {
+        "a": "In an equilateral triangle, the centroid (center of mass), circumcenter (center of circumscribed circle), and incenter (center of inscribed circle) all coincide at the same point. This unique property occurs because of the triangle's perfect symmetry, where all sides and angles are equal."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}

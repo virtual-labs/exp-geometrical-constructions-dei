@@ -1,0 +1,49 @@
+/* style the header container  */
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.header{
+    margin: 0px;
+}
+
+.header .header-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 75px;
+}
+
+.header img{
+    width: 85px;
+    height: auto;
+}
+
+/* style the navigation menu  */
+
+nav{
+    background-color: #ff6600;
+    height: 8px;
+    /* padding: 7px; */
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    opacity: .7;
+}
