@@ -195,7 +195,7 @@ pencil2Step3.addEventListener("click", (evt) => {
     setTimeout(()=>{
         gif4Step3.style.visibility = "hidden";
         png4Step3.style.visibility = "visible";
-        instruction1Step3.innerText = "Select compass and set it to a certain length. Starting from point A, mark off equidistant arcs on the line. Then, mark off arcs from points A and B with AB as the radius.";
+        instruction1Step3.innerText = "Select compass and set it to a certain length. Starting from point A, mark off equidistant arcs on the line. Then, mark off arcs from points A and B with AB as the radius (5 arcs should be drawn).";
         trans5Step3.style.visibility = "visible";
         arr3Step3.style.visibility = "visible";
     }, 6000);

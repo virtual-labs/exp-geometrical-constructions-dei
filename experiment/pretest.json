@@ -6,9 +6,10 @@
       "answers": {
         "a": "True",
         "b": "False"
+        
       },
       "explanations": {
-        "b": "False"
+        "b": "This statement is false. A normal is a line drawn perpendicular (at 90°) to the tangent at the point of contact, not parallel to it. The normal and tangent are always perpendicular to each other in geometric constructions."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -19,10 +20,10 @@
         "a": "Subdivision",
         "b": "Bisection",
         "c": "Trisection",
-        "d": "None of the above"
+        "d": "Quadrisection"
       },
       "explanations": {
-        "c": "Trisection"
+        "c": "Dividing a line into three equal parts is called trisection. The term comes from 'tri' meaning three and 'section' meaning parts. This is a fundamental geometric construction used in engineering drawings."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -36,7 +37,7 @@
         "d": "135°"
       },
       "explanations": {
-        "d": "135°"
+        "d": "Each interior angle of a regular octagon measures 135°. This is calculated using the formula: Interior angle = (n-2) × 180° / n, where n = 8 for an octagon. Therefore: (8-2) × 180° / 8 = 1080° / 8 = 135°."
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
@@ -50,7 +51,7 @@
         "d": "Medial triangle construction"
       },
       "explanations": {
-        "b": "In centre construction"
+        "b": "The incenter construction involves finding the point where the angle bisectors of a triangle meet. From this point, a circle can be inscribed that touches all three sides of the triangle. This inscribed circle is called the incircle."
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -61,10 +62,10 @@
         "a": "Uniform polygons",
         "b": "True polygons",
         "c": "Regular polygons",
-        "d": "Real polygons"
+        "d": "Real Polygons"
       },
       "explanations": {
-        "c": "Regular polygons"
+        "c": "Regular polygons are geometric figures where all sides are equal in length and all interior angles are equal in measure. Examples include equilateral triangles, squares, regular pentagons, and regular hexagons."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
@@ -75,10 +76,10 @@
         "a": "Complementary",
         "b": "Equal",
         "c": "Supplementary",
-        "d": "None of the above"
+        "d": "Opposite"
       },
       "explanations": {
-        "c": "Supplementary"
+        "c": "Interior and exterior angles at any vertex of a polygon are supplementary, meaning they add up to 180°. For a regular hexagon, the interior angle is 120° and the exterior angle is 60°, totaling 180°."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
@@ -86,13 +87,13 @@
     {
       "question": "Which of the following theorem is used to divide a line segment into a number of equal parts?",
       "answers": {
-        "a": "Pythagoras' theorem ",
+        "a": "Pythagoras' theorem",
         "b": "Right-angle theorem",
         "c": "Thales theorem",
         "d": "Congruence theorem"
       },
       "explanations": {
-        "c": "Thales theorem"
+        "c": "Thales' theorem (or the intercept theorem) states that if parallel lines intersect two transversals, they divide the transversals proportionally. This principle is used to divide a line segment into any number of equal parts using parallel lines."
       },
       "correctAnswer": "c",
       "difficulty": "advanced"
@@ -103,10 +104,10 @@
         "a": "9",
         "b": "6",
         "c": "8",
-        "d": "10"
+        "d": "12"
       },
       "explanations": {
-        "a": "9"
+        "a": "A regular hexagon has 9 diagonals. This is calculated using the formula n(n-3)/2, where n is the number of sides. For a hexagon: 6(6-3)/2 = 6×3/2 = 9 diagonals. Each vertex connects to 3 non-adjacent vertices."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
@@ -117,10 +118,10 @@
         "a": "Concentric circle",
         "b": "Circumscribed circle",
         "c": "Inscribed circle",
-        "d": "Sphere"
+        "d": "Excircle"
       },
       "explanations": {
-        "a": "Concentric circle"
+        "a": "Concentric circles are multiple circles that share the same center point but have different radii. They are commonly used in engineering drawings for representing cylindrical objects, washers, or annular sections."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
